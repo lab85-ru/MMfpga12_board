@@ -1,0 +1,157 @@
+--------------------------------------------------------------------------------
+Release 9.1i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx91i\bin\nt\trce.exe -ise
+C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise
+-intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr
+flash_test.pcf -ucf flash_test.ucf
+
+Design file:              flash_test.ncd
+Physical constraint file: flash_test.pcf
+Device,package,speed:     xc3s200,tq144,-5 (PRODUCTION 1.39 2006-10-19)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk_50MHz
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Data<0>     |    2.621(R)|   -0.399(R)|clk_50MHz_BUFGP   |   0.000|
+Data<1>     |    2.622(R)|   -0.399(R)|clk_50MHz_BUFGP   |   0.000|
+Data<2>     |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<3>     |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<4>     |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<5>     |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<6>     |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<7>     |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<8>     |    2.623(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<9>     |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<10>    |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<11>    |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<12>    |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<13>    |    2.623(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<14>    |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+Data<15>    |    2.622(R)|   -0.400(R)|clk_50MHz_BUFGP   |   0.000|
+reset       |    3.125(R)|   -0.457(R)|clk_50MHz_BUFGP   |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk_50MHz to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+Addr<0>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<1>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<2>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<3>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<4>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<5>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<6>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<7>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<8>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<9>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<10>     |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<11>     |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<12>     |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<13>     |    6.405(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<14>     |    6.405(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<15>     |    6.405(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<16>     |    6.406(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<17>     |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<18>     |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<19>     |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<20>     |    6.406(R)|clk_50MHz_BUFGP   |   0.000|
+Addr<21>     |    6.405(R)|clk_50MHz_BUFGP   |   0.000|
+Data<0>      |   11.983(R)|clk_50MHz_BUFGP   |   0.000|
+Data<1>      |   11.692(R)|clk_50MHz_BUFGP   |   0.000|
+Data<2>      |   11.688(R)|clk_50MHz_BUFGP   |   0.000|
+Data<3>      |   12.393(R)|clk_50MHz_BUFGP   |   0.000|
+Data<4>      |   11.215(R)|clk_50MHz_BUFGP   |   0.000|
+Data<5>      |   11.068(R)|clk_50MHz_BUFGP   |   0.000|
+Data<6>      |   11.394(R)|clk_50MHz_BUFGP   |   0.000|
+Data<7>      |   11.656(R)|clk_50MHz_BUFGP   |   0.000|
+Data<8>      |    9.704(R)|clk_50MHz_BUFGP   |   0.000|
+Data<9>      |    9.150(R)|clk_50MHz_BUFGP   |   0.000|
+Data<10>     |    9.391(R)|clk_50MHz_BUFGP   |   0.000|
+Data<11>     |    9.802(R)|clk_50MHz_BUFGP   |   0.000|
+Data<12>     |    9.709(R)|clk_50MHz_BUFGP   |   0.000|
+Data<13>     |    9.804(R)|clk_50MHz_BUFGP   |   0.000|
+Data<14>     |   10.758(R)|clk_50MHz_BUFGP   |   0.000|
+Data<15>     |   10.800(R)|clk_50MHz_BUFGP   |   0.000|
+LED7_SEG_O<0>|    9.286(R)|clk_50MHz_BUFGP   |   0.000|
+LED7_SEG_O<1>|   10.177(R)|clk_50MHz_BUFGP   |   0.000|
+LED7_SEG_O<2>|   10.259(R)|clk_50MHz_BUFGP   |   0.000|
+LED7_SEG_O<3>|    9.594(R)|clk_50MHz_BUFGP   |   0.000|
+LED7_SEG_O<4>|   10.070(R)|clk_50MHz_BUFGP   |   0.000|
+LED7_SEG_O<5>|   10.259(R)|clk_50MHz_BUFGP   |   0.000|
+LED7_SEG_O<6>|   10.364(R)|clk_50MHz_BUFGP   |   0.000|
+LED7_SEG_O<7>|    9.946(R)|clk_50MHz_BUFGP   |   0.000|
+flash_ce     |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+flash_oe     |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+flash_we     |   10.135(R)|clk_50MHz_BUFGP   |   0.000|
+-------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk_50MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_50MHz      |    8.781|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+clk_50MHz      |Data<0>        |   10.853|
+clk_50MHz      |Data<1>        |   10.562|
+clk_50MHz      |Data<2>        |   10.558|
+clk_50MHz      |Data<3>        |   11.263|
+clk_50MHz      |Data<4>        |   10.085|
+clk_50MHz      |Data<5>        |    9.938|
+clk_50MHz      |Data<6>        |   10.264|
+clk_50MHz      |Data<7>        |   10.526|
+clk_50MHz      |Data<8>        |    8.574|
+clk_50MHz      |Data<9>        |    8.020|
+clk_50MHz      |Data<10>       |    8.261|
+clk_50MHz      |Data<11>       |    8.672|
+clk_50MHz      |Data<12>       |    8.579|
+clk_50MHz      |Data<13>       |    8.674|
+clk_50MHz      |Data<14>       |    9.628|
+clk_50MHz      |Data<15>       |    9.670|
+clk_50MHz      |flash_we       |    8.982|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Aug 16 16:03:26 2007
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 94 MB
+
+
+

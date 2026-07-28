@@ -1,0 +1,71 @@
+--------------------------------------------------------------------------------
+Release 8.1i Trace I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise Test_3.ise -intstyle ise -e 3 -l 3 -s 5 -xml
+Test_3 Test_3.ncd -o Test_3.twr Test_3.pcf
+
+
+Design file:              test_3.ncd
+Physical constraint file: test_3.pcf
+Device,speed:             xc3s200,-5 (PRODUCTION 1.37 2005-11-04)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk_50MHz
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  |  Clock |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+------------+------------+------------+------------------+--------+
+SW<0>       |    4.277(R)|   -0.734(R)|clk_50MHz_BUFGP   |   0.000|
+SW<1>       |    4.546(R)|   -0.258(R)|clk_50MHz_BUFGP   |   0.000|
+SW<2>       |    4.597(R)|   -0.355(R)|clk_50MHz_BUFGP   |   0.000|
+SW<3>       |    3.549(R)|   -0.182(R)|clk_50MHz_BUFGP   |   0.000|
+reset       |    2.638(R)|   -0.546(R)|clk_50MHz_BUFGP   |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk_50MHz to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+LED<0>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+LED<1>      |    6.403(R)|clk_50MHz_BUFGP   |   0.000|
+LED<2>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+LED<3>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+LED<4>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+LED<5>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+LED<6>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+LED<7>      |    6.404(R)|clk_50MHz_BUFGP   |   0.000|
+USER1       |    6.403(R)|clk_50MHz_BUFGP   |   0.000|
+USER2       |    6.403(R)|clk_50MHz_BUFGP   |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk_50MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_50MHz      |    7.989|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Analysis completed Wed Jul 11 08:49:21 2007
+--------------------------------------------------------------------------------
+
+
+
+Peak Memory Usage: 101 MB

@@ -1,0 +1,167 @@
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -ifn VGA_RAM.xst -ofn VGA_RAM.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -dd _ngo -nt timestamp -uc vga_ram.ucf -p xc3s200-tq144-5 VGA_RAM.ngc VGA_RAM.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o VGA_RAM_map.ncd VGA_RAM.ngd VGA_RAM.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -w -intstyle ise -ol std -t 1 VGA_RAM_map.ncd VGA_RAM.ncd VGA_RAM.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -e 3 -l 3 -s 5 -xml VGA_RAM VGA_RAM.ncd -o VGA_RAM.twr VGA_RAM.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA_RAM/VGA_RAM" -intstyle ise -f VGA_RAM.ut VGA_RAM.ncd

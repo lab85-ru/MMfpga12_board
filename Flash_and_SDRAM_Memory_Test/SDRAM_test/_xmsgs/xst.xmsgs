@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/SDRAM_test/test_board_core.vhd</arg>&quot; line <arg fmt="%d" index="2">243</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">clk2x</arg>&apos; of component &apos;<arg fmt="%s" index="4">XSASDRAMCntl</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/SDRAM_test/test_board_core.vhd</arg>&quot; line <arg fmt="%d" index="2">243</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">status</arg>&apos; of component &apos;<arg fmt="%s" index="4">XSASDRAMCntl</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/SDRAM_test/test_board_core.vhd</arg>&quot; line <arg fmt="%d" index="2">308</arg>: The following signals are missing in the process sensitivity list:
+<arg fmt="%s" index="3">button_n</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/SDRAM_test/sdramcntl.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">sAddr_x</arg>&gt; has a width of <arg fmt="%d" index="4">13</arg> bits but assigned expression is <arg fmt="%d" index="5">12</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/SDRAM_test/sdramcntl.vhd</arg>&quot; line <arg fmt="%d" index="2">333</arg>: The following signals are missing in the process sensitivity list:
+<arg fmt="%s" index="3">activeBank_r, ba_r</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">col&lt;12&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">hDOutOppPhase_r</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">dllext_rst_n</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">int_clkdv_b</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">begun</arg>&gt; is never used.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">empty_pipe</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">state_r</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">earlyBegun</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">rdDone</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">dataOut</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">dataIn</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">var</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2110" delta="old" >Clock of register &lt;<arg fmt="%s" index="1">USER1</arg>&gt; seems to be also used in the data or control logic of that element.
+</msg>
+
+<msg type="warning" file="Xst" num="2110" delta="old" >Clock of register &lt;<arg fmt="%s" index="1">USER2</arg>&gt; seems to be also used in the data or control logic of that element.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">activeBank_r</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">sdramCntl</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">wrTimer_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sdramCntl</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;sDataDir_r&gt; &lt;wrPipeline_r_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">opBegun_r</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">u1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">cmd_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sdramCntl</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;cmd_r_1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch  &lt;<arg fmt="%s" index="1">cmd_r_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sdramCntl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u0/divCnt_17</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">test_board</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u0/divCnt_18</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">test_board</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u0/divCnt_19</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">test_board</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u0/divCnt_20</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">test_board</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u0/divCnt_21</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">test_board</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u0/divCnt_22</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">test_board</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u0/u1/u1/opBegun_r</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">test_board</arg>&gt;.
+</msg>
+
+</messages>

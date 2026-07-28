@@ -1,0 +1,12 @@
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -intstyle ise -ifn Test_1.xst -ofn Test_1.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -intstyle ise -ifn Test_1.xst -ofn Test_1.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -intstyle ise -ifn Test_1.xst -ofn Test_1.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -intstyle ise -dd _ngo -uc Test_1.ucf -p acr2 Test_1.ngc Test_1.ngd
+cpldfit -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -intstyle ise -p xa2c*-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Test_1.ngd
+XSLTProcess -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" Test_1_build.xml
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -intstyle ise -ifn Test_1.xst -ofn Test_1.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -intstyle ise -dd _ngo -nt timestamp -uc Test_1.ucf -p xc3s200-tq144-5 Test_1.ngc Test_1.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o Test_1_map.ncd Test_1.ngd Test_1.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -w -intstyle ise -ol std -t 1 Test_1_map.ncd Test_1.ncd Test_1.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -intstyle ise -e 3 -l 3 -s 5 -xml Test_1 Test_1.ncd -o Test_1.twr Test_1.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_1/Test_1" -intstyle ise -f Test_1.ut Test_1.ncd

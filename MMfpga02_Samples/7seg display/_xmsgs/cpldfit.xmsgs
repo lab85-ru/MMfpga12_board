@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;6&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P100</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;6&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;0&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P103</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;0&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;1&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P102</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;1&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;2&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P105</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;2&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;3&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P104</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;3&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;4&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P108</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;4&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;5&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P107</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;5&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;1&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P119</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;1&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;4&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P98</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;4&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;5&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P112</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;5&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;7&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P99</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;7&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;0&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P118</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;0&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;3&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P116</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;3&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;2&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P113</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;2&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">reset</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P10</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">reset</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">clk_50MHz</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P55</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">clk_50MHz</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;6&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P100</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;6&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;0&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P103</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;0&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;1&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P102</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;1&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;2&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P105</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;2&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;3&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P104</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;3&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;4&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P108</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;4&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;5&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P107</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;5&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;1&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P119</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;1&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;4&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P98</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;4&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;5&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P112</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;5&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;0&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P118</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;0&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;3&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P116</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;3&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;2&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P113</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;2&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;6&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P100</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;6&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;0&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P103</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;0&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;1&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P102</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;1&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;2&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P105</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;2&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;3&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P104</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;3&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;4&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P108</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;4&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_AN_O&lt;5&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P107</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_AN_O&lt;5&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;1&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P119</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;1&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;4&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P98</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;4&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;5&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P112</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;5&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;0&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P118</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;0&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;3&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P116</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;3&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="unknown" >&apos;<arg fmt="%s" index="1">LED7_SEG_O&lt;2&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P113</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">LED7_SEG_O&lt;2&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="868" delta="unknown" >Cannot fit the design into any of the specified devices with the selected implementation options.
+</msg>
+
+</messages>

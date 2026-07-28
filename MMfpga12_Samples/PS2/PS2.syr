@@ -1,0 +1,632 @@
+Release 8.1i - xst I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.31 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.31 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: PS2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+     5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PS2.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PS2"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-tq144
+
+---- Source Options
+Top Module Name                    : PS2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : PS2.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2.vhd" in Library work.
+Entity <ps2> compiled.
+Entity <ps2> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <PS2> (Architecture <behavioral>).
+INFO:Xst:1433 - Contents of array <data> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <firma> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <firma> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1304 - Contents of register <firma<0>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<1>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<2>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<3>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<4>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<5>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<6>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<7>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<8>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<9>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<10>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<11>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<12>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<13>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<14>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <firma<15>> in unit <PS2> never changes during circuit operation. The register is replaced by logic.
+Entity <PS2> analyzed. Unit <PS2> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <PS2>.
+    Related source file is "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2.vhd".
+    Found finite state machine <FSM_0> for signal <data_state>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk_LCD (rising_edge)                          |
+    | Reset              | reset (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000000                                        |
+    | Power Up State     | 0000000                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <home_state>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk_LCD (rising_edge)                          |
+    | Reset              | reset (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000000                                        |
+    | Power Up State     | 0000000                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <init_state>.
+    -----------------------------------------------------------------------
+    | States             | 30                                             |
+    | Transitions        | 34                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 29                                             |
+    | Clock              | clk_LCD (rising_edge)                          |
+    | Reset              | reset (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000000                                        |
+    | Power Up State     | 0000000                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_3> for signal <stan>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 4                                              |
+    | Clock              | KBCLOCK (falling_edge)                         |
+    | Clock enable       | $n0068 (positive)                              |
+    | Reset              | reset (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 16x8-bit ROM for signal <$n0014> created at line 461.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 1-bit register for signal <LCD_E>.
+    Found 4-bit register for signal <LCD_D>.
+    Found 8-bit 16-to-1 multiplexer for signal <$n0015> created at line 463.
+    Found 8-bit 16-to-1 multiplexer for signal <$n0019> created at line 197.
+    Found 7-bit adder for signal <$n0243> created at line 298.
+    Found 7-bit adder for signal <$n0244> created at line 266.
+    Found 7-bit adder for signal <$n0245> created at line 283.
+    Found 7-bit adder for signal <$n0246> created at line 313.
+    Found 4-bit adder for signal <$n0247> created at line 126.
+    Found 5-bit adder for signal <$n0248> created at line 489.
+    Found 5-bit adder for signal <$n0249> created at line 227.
+    Found 16-bit adder for signal <$n0250> created at line 69.
+    Found 26-bit adder for signal <$n0251> created at line 68.
+    Found 2-bit adder for signal <$n0252> created at line 139.
+    Found 1-bit register for signal <clk_1Hz>.
+    Found 1-bit register for signal <clk_LCD>.
+    Found 26-bit up counter for signal <counter>.
+    Found 16-bit up counter for signal <counter_LCD>.
+    Found 7-bit register for signal <delay_count>.
+    Found 1-bit register for signal <first_line<0>>.
+    Found 5-bit up counter for signal <i>.
+    Found 128-bit register for signal <LCD>.
+    Found 4-bit up counter for signal <licznik>.
+    Found 4-bit up counter for signal <pozycja>.
+    Found 5-bit up counter for signal <pozycja0>.
+    Found 1-bit register for signal <start<0>>.
+    Found 2-bit up counter for signal <stop>.
+    Summary:
+	inferred   4 Finite State Machine(s).
+	inferred   1 ROM(s).
+	inferred   7 Counter(s).
+	inferred 145 D-type flip-flop(s).
+	inferred  10 Adder/Subtractor(s).
+	inferred  16 Multiplexer(s).
+Unit <PS2> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 10
+ 16-bit adder                                          : 1
+ 2-bit adder                                           : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 2
+ 7-bit adder                                           : 4
+# Counters                                             : 7
+ 16-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 26-bit up counter                                     : 1
+ 4-bit up counter                                      : 2
+ 5-bit up counter                                      : 2
+# Registers                                            : 151
+ 1-bit register                                        : 133
+ 4-bit register                                        : 1
+ 7-bit register                                        : 1
+ 8-bit register                                        : 16
+# Multiplexers                                         : 2
+ 8-bit 16-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <stan> on signal <stan[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 11
+ 10    | 01
+-------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <init_state> on signal <init_state[1:30]> with speed1 encoding.
+-------------------------------------------
+ State   | Encoding
+-------------------------------------------
+ 0000000 | 100000000000000000000000000000
+ 0000001 | 000000000000000000000000000010
+ 0000010 | 000000000000000000000000000100
+ 0000011 | 000000000000000000000000001000
+ 0000100 | 000000000000000000000000010000
+ 0000101 | 000000000000000000000000100000
+ 0000110 | 000000000000000000000010000000
+ 0000111 | 000000000000000000001000000000
+ 0001000 | 000000000000000000100000000000
+ 0001001 | 000000000000000010000000000000
+ 0001010 | 000000000000001000000000000000
+ 0001011 | 000000000000000000000001000000
+ 0001100 | 000000000000000000000100000000
+ 0001101 | 000000000000000000010000000000
+ 0001110 | 000000000000000001000000000000
+ 0001111 | 000000000000000100000000000000
+ 0010000 | 000000000000010000000000000000
+ 0010001 | 000000000000100000000000000000
+ 0010010 | 000000000001000000000000000000
+ 0010011 | 000000000010000000000000000000
+ 0010100 | 000000000100000000000000000000
+ 0010101 | 000000001000000000000000000000
+ 0010110 | 000000010000000000000000000000
+ 0010111 | 000000100000000000000000000000
+ 0011000 | 000001000000000000000000000000
+ 0011001 | 000010000000000000000000000000
+ 0011010 | 000100000000000000000000000000
+ 0011011 | 001000000000000000000000000000
+ 0011100 | 010000000000000000000000000001
+ 0011101 | 000000000000000000000000000001
+-------------------------------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <home_state> on signal <home_state[1:3]> with gray encoding.
+---------------------
+ State   | Encoding
+---------------------
+ 0000000 | 000
+ 0000001 | 110
+ 0000010 | 010
+ 0000011 | 011
+ 0000100 | 001
+---------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <data_state> on signal <data_state[1:3]> with sequential encoding.
+---------------------
+ State   | Encoding
+---------------------
+ 0000000 | 000
+ 0000001 | 001
+ 0000010 | 101
+ 0000011 | 100
+ 0000100 | 011
+ 0000101 | 010
+---------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 4
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 9
+ 16-bit adder                                          : 1
+ 2-bit adder                                           : 1
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 2
+ 7-bit adder                                           : 4
+# Counters                                             : 6
+ 16-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 4-bit up counter                                      : 2
+ 5-bit up counter                                      : 2
+# Registers                                            : 309
+ Flip-Flops                                            : 309
+# Multiplexers                                         : 2
+ 8-bit 16-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Loading device for application Rf_Device from file '3s200.nph' in environment C:\Xilinx.
+
+Optimizing unit <PS2> ...
+WARNING:Xst:1293 - FF/Latch  <licznik_3> has a constant value of 0 in block <PS2>.
+WARNING:Xst:1291 - FF/Latch <pozycja0_4> is unconnected in block <PS2>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PS2, actual ratio is 24.
+FlipFlop delay_count_0 has been replicated 5 time(s)
+FlipFlop delay_count_1 has been replicated 3 time(s)
+FlipFlop delay_count_2 has been replicated 2 time(s)
+FlipFlop delay_count_3 has been replicated 1 time(s)
+FlipFlop delay_count_4 has been replicated 3 time(s)
+FlipFlop delay_count_5 has been replicated 2 time(s)
+FlipFlop init_state_FFd1 has been replicated 5 time(s)
+FlipFlop init_state_FFd28 has been replicated 4 time(s)
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PS2.ngr
+Top Level Output File Name         : PS2
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 1065
+#      GND                         : 1
+#      INV                         : 9
+#      LUT1                        : 30
+#      LUT2                        : 189
+#      LUT2_D                      : 4
+#      LUT2_L                      : 6
+#      LUT3                        : 121
+#      LUT3_D                      : 7
+#      LUT3_L                      : 136
+#      LUT4                        : 269
+#      LUT4_D                      : 19
+#      LUT4_L                      : 84
+#      MUXCY                       : 30
+#      MUXF5                       : 81
+#      MUXF6                       : 32
+#      MUXF7                       : 16
+#      VCC                         : 1
+#      XORCY                       : 30
+# FlipFlops/Latches                : 368
+#      FDC                         : 86
+#      FDCE                        : 104
+#      FDCE_1                      : 140
+#      FDP                         : 6
+#      FDPE                        : 32
+# Clock Buffers                    : 3
+#      BUFG                        : 1
+#      BUFGP                       : 2
+# IO Buffers                       : 8
+#      IBUF                        : 2
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-5 
+
+ Number of Slices:                     471  out of   1920    24%  
+ Number of Slice Flip Flops:           368  out of   3840     9%  
+ Number of 4 input LUTs:               865  out of   3840    22%  
+ Number of bonded IOBs:                 10  out of     97    10%  
+ Number of GCLKs:                        3  out of      8    37%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+KBCLOCK                            | BUFGP                  | 140   |
+clk_50MHz                          | BUFGP                  | 149   |
+clk_LCD1                           | BUFG                   | 79    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 15.150ns (Maximum Frequency: 66.005MHz)
+   Minimum input arrival time before clock: 7.773ns
+   Maximum output required time after clock: 6.280ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'KBCLOCK'
+  Clock period: 7.887ns (frequency: 126.789MHz)
+  Total number of paths / destination ports: 1478 / 152
+-------------------------------------------------------------------------
+Delay:               7.887ns (Levels of Logic = 4)
+  Source:            stop_1 (FF)
+  Destination:       data<1>_2 (FF)
+  Source Clock:      KBCLOCK falling
+  Destination Clock: KBCLOCK falling
+
+  Data Path: stop_1 to data<1>_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q           4   0.626   1.074  stop_1 (stop_1)
+     LUT2:I0->O            1   0.479   0.740  Ker80_SW0 (N334)
+     LUT4:I2->O            8   0.479   0.980  Ker80 (N80)
+     LUT4:I2->O           16   0.479   1.346  Ker1171 (N117)
+     LUT2:I0->O            1   0.479   0.681  _n05951 (_n0595)
+     FDCE_1:CE                 0.524          data<10>_3
+    ----------------------------------------
+    Total                      7.887ns (3.066ns logic, 4.821ns route)
+                                       (38.9% logic, 61.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_50MHz'
+  Clock period: 11.657ns (frequency: 85.783MHz)
+  Total number of paths / destination ports: 76779 / 278
+-------------------------------------------------------------------------
+Delay:               11.657ns (Levels of Logic = 8)
+  Source:            pozycja0_0 (FF)
+  Destination:       LCD_3_1 (FF)
+  Source Clock:      clk_50MHz rising
+  Destination Clock: clk_50MHz rising
+
+  Data Path: pozycja0_0 to LCD_3_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             84   0.626   2.123  pozycja0_0 (pozycja0_0)
+     LUT3_L:I0->LO         1   0.479   0.000  pozycja0<0>31 (mux_2_N33)
+     MUXF5:I0->O           1   0.314   0.000  pozycja0<1>_rn_14 (mux_2_pozycja0<1>_MUXF515)
+     MUXF6:I0->O           1   0.298   0.000  pozycja0<2>_rn_6 (mux_2_pozycja0<2>_MUXF67)
+     MUXF7:I0->O          20   0.298   1.608  Mmux__n0019__n0019<0>__n0019<0>_rn_1 (_n0019<3>)
+     LUT3_L:I0->LO         1   0.479   0.123  Ker3289_SW0 (N3194)
+     LUT4:I3->O           49   0.479   1.828  Ker3289 (Ker32_map223)
+     LUT3:I1->O           80   0.479   1.868  Ker32146 (N32)
+     LUT3_L:I2->LO         1   0.479   0.000  _n0191<2>1 (_n0191<2>)
+     FDCE:D                    0.176          LCD_11_2
+    ----------------------------------------
+    Total                     11.657ns (4.107ns logic, 7.550ns route)
+                                       (35.2% logic, 64.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_LCD1'
+  Clock period: 15.150ns (frequency: 66.005MHz)
+  Total number of paths / destination ports: 140875 / 85
+-------------------------------------------------------------------------
+Delay:               15.150ns (Levels of Logic = 12)
+  Source:            delay_count_2_1 (FF)
+  Destination:       delay_count_3 (FF)
+  Source Clock:      clk_LCD1 rising
+  Destination Clock: clk_LCD1 rising
+
+  Data Path: delay_count_2_1 to delay_count_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              7   0.626   1.201  delay_count_2_1 (delay_count_2_1)
+     LUT2:I0->O            1   0.479   0.704  _n0009<4>11 (N2030)
+     LUT4_L:I3->LO         1   0.479   0.270  _n0009<4>16 (N2035)
+     LUT4:I1->O           13   0.479   1.017  _n0009<4>84 (_n0009<4>)
+     LUT4:I3->O            1   0.479   0.704  PS2__n0243<6>_xor1150_SW1 (N2999)
+     LUT4:I3->O            3   0.479   0.830  PS2__n0243<6>_xor1150 (PS2__n0243<6>_xor1_map867)
+     LUT3:I2->O            1   0.479   0.704  PS2__n0243<6>_xor1273_SW0 (N3015)
+     LUT4_L:I3->LO         1   0.479   0.123  _n0037274 (N2851)
+     LUT4:I3->O           14   0.479   1.032  _n0037285 (_n0037)
+     LUT4:I3->O            3   0.479   0.941  _n00364 (N2867)
+     LUT4:I1->O            2   0.479   0.915  _n003626 (N2886)
+     LUT4_L:I1->LO         1   0.479   0.159  _n0036207_SW4 (N3036)
+     LUT4_D:I2->LO         1   0.479   0.000  _n0129<3> (N3281)
+     FDC:D                     0.176          delay_count_3
+    ----------------------------------------
+    Total                     15.150ns (6.550ns logic, 8.600ns route)
+                                       (43.2% logic, 56.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'KBCLOCK'
+  Total number of paths / destination ports: 263 / 263
+-------------------------------------------------------------------------
+Offset:              7.773ns (Levels of Logic = 4)
+  Source:            KBDATA (PAD)
+  Destination:       data<1>_2 (FF)
+  Destination Clock: KBCLOCK falling
+
+  Data Path: KBDATA to data<1>_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           133   0.715   2.090  KBDATA_IBUF (KBDATA_IBUF)
+     LUT4:I3->O            8   0.479   0.980  Ker80 (N80)
+     LUT4:I2->O           16   0.479   1.346  Ker1171 (N117)
+     LUT2:I0->O            1   0.479   0.681  _n05951 (_n0595)
+     FDCE_1:CE                 0.524          data<10>_3
+    ----------------------------------------
+    Total                      7.773ns (2.676ns logic, 5.097ns route)
+                                       (34.4% logic, 65.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_LCD1'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              6.280ns (Levels of Logic = 1)
+  Source:            LCD_E (FF)
+  Destination:       LCD_E (PAD)
+  Source Clock:      clk_LCD1 rising
+
+  Data Path: LCD_E to LCD_E
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.626   0.745  LCD_E (LCD_E_OBUF)
+     OBUF:I->O                 4.909          LCD_E_OBUF (LCD_E)
+    ----------------------------------------
+    Total                      6.280ns (5.535ns logic, 0.745ns route)
+                                       (88.1% logic, 11.9% route)
+
+=========================================================================
+CPU : 49.73 / 50.08 s | Elapsed : 50.00 / 50.00 s
+ 
+--> 
+
+Total memory usage is 129560 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :   47 (   0 filtered)
+

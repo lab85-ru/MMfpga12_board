@@ -1,0 +1,4 @@
+AR sraminterface sraminterface_arch "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/sraminterface.vhd" sub00/vhpl03 1187272939
+EN flash_test NULL "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.vhd" sub00/vhpl00 1187272940
+AR flash_test behavioral "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.vhd" sub00/vhpl01 1187272941
+EN sraminterface NULL "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/sraminterface.vhd" sub00/vhpl02 1187272938

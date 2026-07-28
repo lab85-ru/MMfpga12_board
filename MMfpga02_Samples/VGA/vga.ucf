@@ -1,0 +1,32 @@
+# EVBfpga MMfpga02 PROPOX www.propox.com
+
+#clock 50MHz
+NET "clk_50MHz" LOC = "P38";
+NET "RESET"     LOC = "P2"; 
+
+#VGA
+NET "VSYNC"		 LOC = "P88";
+NET "HSYNC"		 LOC = "P87";
+NET "BLUE<2>"   LOC = "P86";
+NET "BLUE<1>"   LOC = "P85";
+NET "BLUE<0>"   LOC = "P81";
+NET "GREEN<2>"  LOC = "P80";
+NET "GREEN<1>"  LOC = "P79";
+NET "GREEN<0>"  LOC = "P75";
+NET "RED<2>"    LOC = "P74";
+NET "RED<1>"    LOC = "P72";
+NET "RED<0>"    LOC = "P71";
+
+#Dip-Switches - active low
+NET "SW_i<0>" LOC = "P89";
+NET "SW_i<1>" LOC = "P90";
+NET "SW_i<2>" LOC = "P91";
+NET "SW_i<3>" LOC = "P92";
+NET "SW_i<4>" LOC = "P96";
+NET "SW_i<5>" LOC = "P97";
+NET "SW_i<6>" LOC = "P1";
+
+#Switches - active low
+NET "SW<1>" LOC	= "P4";
+NET "SW<0>" LOC	= "P5"; 
+ 

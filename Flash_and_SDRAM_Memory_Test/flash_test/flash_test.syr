@@ -1,0 +1,547 @@
+Release 9.1i - xst J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 1.31 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 1.31 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: flash_test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "flash_test.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "flash_test"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-tq144
+
+---- Source Options
+Top Module Name                    : flash_test
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : flash_test.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/sraminterface.vhd" in Library work.
+Architecture sraminterface_arch of Entity sraminterface is up to date.
+Compiling vhdl file "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.vhd" in Library work.
+Entity <flash_test> compiled.
+Entity <flash_test> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <flash_test> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sraminterface> in library <work> (architecture <sraminterface_arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <flash_test> in library <work> (Architecture <behavioral>).
+INFO:Xst:2679 - Register <writeData> in unit <flash_test> has a constant value of 0000000010010000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <doWrite> in unit <flash_test> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <doRead> in unit <flash_test> has a constant value of 1 during circuit operation. The register is replaced by logic.
+Entity <flash_test> analyzed. Unit <flash_test> generated.
+
+Analyzing Entity <sraminterface> in library <work> (Architecture <sraminterface_arch>).
+Entity <sraminterface> analyzed. Unit <sraminterface> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <sraminterface>.
+    Related source file is "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/sraminterface.vhd".
+WARNING:Xst:1780 - Signal <enableWriteData> is never used or assigned.
+WARNING:Xst:1780 - Signal <nextWEn> is never used or assigned.
+INFO:Xst:1799 - State stread2 is never reached in FSM <presState>.
+INFO:Xst:1799 - State stread1 is never reached in FSM <presState>.
+    Found finite state machine <FSM_0> for signal <presState>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk_50MHz (rising_edge)                        |
+    | Reset              | reset (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | stidle                                         |
+    | Power Up State     | stidle                                         |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 22-bit register for signal <addrReg>.
+    Found 1-bit register for signal <CEn>.
+    Found 1-bit register for signal <doingWrite1>.
+    Found 1-bit register for signal <doingWrite2>.
+    Found 1-bit register for signal <OEn>.
+    Found 16-bit tristate buffer for signal <SRAMData>.
+    Found 16-bit register for signal <writeDataReg>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  42 D-type flip-flop(s).
+	inferred  16 Tristate(s).
+Unit <sraminterface> synthesized.
+
+
+Synthesizing Unit <flash_test>.
+    Related source file is "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.vhd".
+    Found finite state machine <FSM_1> for signal <stan>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 31                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk_50MHz (rising_edge)                        |
+    | Reset              | reset (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000                                           |
+    | Power Up State     | 0000                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst - Property "use_dsp48" is not applicable for this technology.
+    Found 8-bit register for signal <LED7_SEG_O>.
+    Found 1-bit register for signal <clk_10kHz>.
+    Found 13-bit up counter for signal <counter>.
+    Found 13-bit adder for signal <counter$addsub0000> created at line 117.
+    Found 16-bit register for signal <data_out>.
+    Found 23-bit register for signal <licznik>.
+    Found 23-bit adder for signal <licznik$addsub0000> created at line 185.
+    Found 22-bit up counter for signal <readAddr>.
+    Found 22-bit up counter for signal <writeAddr>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   3 Counter(s).
+	inferred  48 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <flash_test> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 13-bit adder                                          : 1
+ 23-bit adder                                          : 1
+# Counters                                             : 3
+ 13-bit up counter                                     : 1
+ 22-bit up counter                                     : 2
+# Registers                                            : 9
+ 1-bit register                                        : 4
+ 16-bit register                                       : 2
+ 22-bit register                                       : 1
+ 23-bit register                                       : 1
+ 8-bit register                                        : 1
+# Tristates                                            : 1
+ 16-bit tristate buffer                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <stan> on signal <stan[1:4]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | 1100
+ 0010  | 0100
+ 0011  | 0101
+ 0100  | 0111
+ 0101  | 0110
+ 0110  | 0010
+ 0111  | 0011
+ 1000  | 0001
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <X1/presState> on signal <presState[1:2]> with gray encoding.
+----------------------
+ State    | Encoding
+----------------------
+ stidle   | 00
+ stwrite1 | 01
+ stwrite2 | 11
+ stread1  | unreached
+ stread2  | unreached
+----------------------
+Loading device for application Rf_Device from file '3s200.nph' in environment C:\Xilinx91i.
+WARNING:Xst:2404 -  FFs/Latches <writeDataReg<15:8>> (without init value) have a constant value of 0 in block <sraminterface>.
+WARNING:Xst:1710 - FF/Latch  <writeDataReg_0> (without init value) has a constant value of 0 in block <sraminterface>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <writeDataReg_1> (without init value) has a constant value of 0 in block <sraminterface>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <writeDataReg_2> (without init value) has a constant value of 0 in block <sraminterface>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <writeDataReg_3> (without init value) has a constant value of 0 in block <sraminterface>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <writeDataReg_5> (without init value) has a constant value of 0 in block <sraminterface>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <writeDataReg_6> (without init value) has a constant value of 0 in block <sraminterface>.
+INFO:Xst:2261 - The FF/Latch <writeDataReg_4> in Unit <sraminterface> is equivalent to the following FF/Latch, which will be removed : <writeDataReg_7> 
+INFO:Xst:2261 - The FF/Latch <LED7_SEG_O_0> in Unit <flash_test> is equivalent to the following 7 FFs/Latches, which will be removed : <LED7_SEG_O_1> <LED7_SEG_O_2> <LED7_SEG_O_3> <LED7_SEG_O_4> <LED7_SEG_O_5> <LED7_SEG_O_6> <LED7_SEG_O_7> 
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# Adders/Subtractors                                   : 1
+ 23-bit adder                                          : 1
+# Counters                                             : 2
+ 22-bit up counter                                     : 2
+# Registers                                            : 73
+ Flip-Flops                                            : 73
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <presState_FFd1> in Unit <sraminterface> is equivalent to the following FF/Latch, which will be removed : <doingWrite2> 
+WARNING:Xst:2677 - Node <readAddr_0> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_1> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_2> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_3> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_4> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_5> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_6> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_7> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_8> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_9> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_10> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_11> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_12> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_13> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_14> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_15> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_16> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_17> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_18> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_19> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_20> of sequential type is unconnected in block <flash_test>.
+WARNING:Xst:2677 - Node <readAddr_21> of sequential type is unconnected in block <flash_test>.
+
+Optimizing unit <flash_test> ...
+INFO:Xst:2261 - The FF/Latch <X1/presState_FFd2> in Unit <flash_test> is equivalent to the following FF/Latch, which will be removed : <X1/OEn> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block flash_test, actual ratio is 3.
+FlipFlop X1/presState_FFd2 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 94
+ Flip-Flops                                            : 94
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : flash_test.ngr
+Top Level Output File Name         : flash_test
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 59
+
+Cell Usage :
+# BELS                             : 205
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 43
+#      LUT2                        : 4
+#      LUT2_L                      : 1
+#      LUT3                        : 32
+#      LUT3_L                      : 1
+#      LUT4                        : 23
+#      LUT4_D                      : 2
+#      LUT4_L                      : 1
+#      MUXCY                       : 50
+#      VCC                         : 1
+#      XORCY                       : 43
+# FlipFlops/Latches                : 94
+#      FDC                         : 8
+#      FDCE                        : 39
+#      FDE                         : 23
+#      FDP                         : 1
+#      FDPE                        : 23
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 58
+#      IBUF                        : 1
+#      IOBUF                       : 16
+#      OBUF                        : 41
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-5 
+
+ Number of Slices:                      75  out of   1920     3%  
+ Number of Slice Flip Flops:            92  out of   3840     2%  
+ Number of 4 input LUTs:               110  out of   3840     2%  
+ Number of IOs:                         59
+ Number of bonded IOBs:                 59  out of     97    60%  
+    IOB Flip Flops:                      2
+ Number of GCLKs:                        1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_50MHz                          | BUFGP                  | 94    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------+------------------------+-------+
+Control Signal                                     | Buffer(FF name)        | Load  |
+---------------------------------------------------+------------------------+-------+
+X1/presState_Rst_inv(X1/presState_Rst_inv1_INV_0:O)| NONE(X1/CEn)           | 71    |
+---------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.127ns (Maximum Frequency: 109.567MHz)
+   Minimum input arrival time before clock: 2.766ns
+   Maximum output required time after clock: 8.354ns
+   Maximum combinational path delay: 8.953ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_50MHz'
+  Clock period: 9.127ns (frequency: 109.567MHz)
+  Total number of paths / destination ports: 4118 / 135
+-------------------------------------------------------------------------
+Delay:               9.127ns (Levels of Logic = 22)
+  Source:            licznik_1 (FF)
+  Destination:       stan_FFd3 (FF)
+  Source Clock:      clk_50MHz rising
+  Destination Clock: clk_50MHz rising
+
+  Data Path: licznik_1 to stan_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.626   1.074  licznik_1 (licznik_1)
+     LUT1:I0->O            1   0.479   0.000  Madd_licznik_addsub0000_cy<1>_rt (Madd_licznik_addsub0000_cy<1>_rt)
+     MUXCY:S->O            1   0.435   0.000  Madd_licznik_addsub0000_cy<1> (Madd_licznik_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_licznik_addsub0000_cy<2> (Madd_licznik_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_licznik_addsub0000_cy<3> (Madd_licznik_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_licznik_addsub0000_cy<4> (Madd_licznik_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_licznik_addsub0000_cy<5> (Madd_licznik_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_licznik_addsub0000_cy<6> (Madd_licznik_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_licznik_addsub0000_cy<7> (Madd_licznik_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_licznik_addsub0000_cy<8> (Madd_licznik_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_licznik_addsub0000_cy<9> (Madd_licznik_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_licznik_addsub0000_cy<10> (Madd_licznik_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.056   0.000  Madd_licznik_addsub0000_cy<11> (Madd_licznik_addsub0000_cy<11>)
+     XORCY:CI->O           2   0.786   1.040  Madd_licznik_addsub0000_xor<12> (licznik_addsub0000<12>)
+     LUT3:I0->O            1   0.479   0.704  stan_cmp_eq0000_wg_lut<1>_SW1 (N155)
+     LUT4:I3->O            1   0.479   0.000  stan_cmp_eq0000_wg_lut<1> (N1)
+     MUXCY:S->O            1   0.435   0.000  stan_cmp_eq0000_wg_cy<1> (stan_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.055   0.000  stan_cmp_eq0000_wg_cy<2> (stan_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  stan_cmp_eq0000_wg_cy<3> (stan_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  stan_cmp_eq0000_wg_cy<4> (stan_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  stan_cmp_eq0000_wg_cy<5> (stan_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           6   0.245   0.912  stan_cmp_eq0000_wg_cy<6> (stan_cmp_eq0000)
+     LUT3:I2->O            1   0.479   0.000  stan_FFd3-In1 (stan_FFd3-In)
+     FDC:D                     0.176          stan_FFd3
+    ----------------------------------------
+    Total                      9.127ns (5.396ns logic, 3.730ns route)
+                                       (59.1% logic, 40.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_50MHz'
+  Total number of paths / destination ports: 39 / 39
+-------------------------------------------------------------------------
+Offset:              2.766ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       licznik_0 (FF)
+  Destination Clock: clk_50MHz rising
+
+  Data Path: reset to licznik_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   0.715   1.527  reset_IBUF (reset_IBUF)
+     FDE:CE                    0.524          licznik_0
+    ----------------------------------------
+    Total                      2.766ns (1.239ns logic, 1.527ns route)
+                                       (44.8% logic, 55.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_50MHz'
+  Total number of paths / destination ports: 68 / 49
+-------------------------------------------------------------------------
+Offset:              8.354ns (Levels of Logic = 2)
+  Source:            X1/presState_FFd1 (FF)
+  Destination:       Data<15> (PAD)
+  Source Clock:      clk_50MHz rising
+
+  Data Path: X1/presState_FFd1 to Data<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.626   1.078  X1/presState_FFd1 (X1/presState_FFd1)
+     LUT3:I0->O           16   0.479   1.051  X1/SRAMData_or0000_inv1 (X1/SRAMData_or0000_inv)
+     IOBUF:T->IO               5.120          Data_15_IOBUF (Data<15>)
+    ----------------------------------------
+    Total                      8.354ns (6.225ns logic, 2.129ns route)
+                                       (74.5% logic, 25.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 17 / 17
+-------------------------------------------------------------------------
+Delay:               8.953ns (Levels of Logic = 3)
+  Source:            clk_50MHz (PAD)
+  Destination:       Data<15> (PAD)
+
+  Data Path: clk_50MHz to Data<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     BUFGP:I->O           96   0.357   1.946  clk_50MHz_BUFGP (clk_50MHz_BUFGP)
+     LUT3:I2->O           16   0.479   1.051  X1/SRAMData_or0000_inv1 (X1/SRAMData_or0000_inv)
+     IOBUF:T->IO               5.120          Data_15_IOBUF (Data<15>)
+    ----------------------------------------
+    Total                      8.953ns (5.956ns logic, 2.997ns route)
+                                       (66.5% logic, 33.5% route)
+
+=========================================================================
+CPU : 15.08 / 16.47 s | Elapsed : 15.00 / 16.00 s
+ 
+--> 
+
+Total memory usage is 141436 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   33 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="NgdBuild" num="738" delta="old" >A case sensitive search for the INST, PAD, or NET element referred to by a constraint entry in &apos;<arg fmt="%s" index="1">test_board.ucf</arg>&apos; that accompanies this design has failed, while a case insensitive search is in progress. The result of the case insensitive search will be used, but messages will accompany each and every use of a case insensitive result. Constraints are case sensitive with respect to user-specified identifiers, which includes names of logic elements in a design.
+</msg>
+
+<msg type="info" file="NgdBuild" num="740" delta="old" >Line <arg fmt="%i" index="1">86</arg> in &apos;<arg fmt="%s" index="2">test_board.ucf</arg>&apos;: Found case insensitive match for NET name &apos;<arg fmt="%s" index="3">BUZZER</arg>&apos;. NET is &apos;<arg fmt="%s" index="4">buzzer</arg>&apos;.
+</msg>
+
+<msg type="info" file="XdmHelpers" num="851" delta="old" >TNM &quot;<arg fmt="%s" index="1">clk</arg>&quot;, used in period specification &quot;<arg fmt="%s" index="2">TS_clk</arg>&quot;, was traced into <arg fmt="%s" index="3">DCM</arg> instance &quot;<arg fmt="%s" index="4">u0/u1/dllint</arg>&quot;. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="5">DCM</arg> output(s):
+</msg>
+
+<msg type="info" file="XdmHelpers" num="851" delta="old" >TNM &quot;<arg fmt="%s" index="1">clk</arg>&quot;, used in period specification &quot;<arg fmt="%s" index="2">TS_clk</arg>&quot;, was traced into <arg fmt="%s" index="3">DCM</arg> instance &quot;<arg fmt="%s" index="4">u0/u1/dllext</arg>&quot;. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="5">DCM</arg> output(s):
+</msg>
+
+</messages>

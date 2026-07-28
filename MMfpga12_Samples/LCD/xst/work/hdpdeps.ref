@@ -1,0 +1,9 @@
+V3 3
+FL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD.vhd 2007/07/12.08:31:46 I.24
+EN work/LCD 1184221910 \
+      FL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/LCD/Behavioral 1184221911 \
+      FL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD.vhd \
+      EN work/LCD 1184221910

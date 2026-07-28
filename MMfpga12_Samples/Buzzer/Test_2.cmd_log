@@ -1,0 +1,7 @@
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_2/Test_2" -intstyle ise -ifn Test_2.xst -ofn Test_2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_2/Test_2" -intstyle ise -ifn Test_2.xst -ofn Test_2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_2/Test_2" -intstyle ise -dd _ngo -nt timestamp -uc Test_2.ucf -p xc3s200-tq144-5 Test_2.ngc Test_2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_2/Test_2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o Test_2_map.ncd Test_2.ngd Test_2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_2/Test_2" -w -intstyle ise -ol std -t 1 Test_2_map.ncd Test_2.ncd Test_2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_2/Test_2" -intstyle ise -e 3 -l 3 -s 5 -xml Test_2 Test_2.ncd -o Test_2.twr Test_2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_2/Test_2" -intstyle ise -f Test_2.ut Test_2.ncd

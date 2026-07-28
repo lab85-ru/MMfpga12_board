@@ -1,0 +1,42 @@
+Release 8.1i ngdbuild I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test_board.ucf
+-p xc3s200-tq144-5 test_board.ngc test_board.ngd 
+
+Reading NGO file
+'C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/SDRAM_test/test_board
+.ngc' ...
+
+Applying constraints in "test_board.ucf" to the design...
+INFO:NgdBuild:738 - A case sensitive search for the INST, PAD, or NET element
+   referred to by a constraint entry in 'test_board.ucf' that accompanies this
+   design has failed, while a case insensitive search is in progress. The result
+   of the case insensitive search will be used, but messages will accompany each
+   and every use of a case insensitive result. Constraints are case sensitive
+   with respect to user-specified identifiers, which includes names of logic
+   elements in a design.
+INFO:NgdBuild:740 - Line 86 in 'test_board.ucf': Found case insensitive match
+   for NET name 'BUZZER'. NET is 'buzzer'.
+
+Checking timing specifications ...
+INFO:XdmHelpers:851 - TNM "clk", used in period specification "TS_clk", was
+   traced into DCM instance "u0/u1/dllint". The following new TNM groups and
+   period specifications were generated at the DCM output(s):
+   CLK0: TS_u0_u1_int_clk1x=PERIOD u0_u1_int_clk1x TS_clk*1.000000 HIGH
+50.000000%
+INFO:XdmHelpers:851 - TNM "clk", used in period specification "TS_clk", was
+   traced into DCM instance "u0/u1/dllext". The following new TNM groups and
+   period specifications were generated at the DCM output(s):
+   <none> (no matching synchronous elements driven by DCM outputs)
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 66800 kilobytes
+
+Writing NGD file "test_board.ngd" ...
+
+Writing NGDBUILD log file "test_board.bld"...

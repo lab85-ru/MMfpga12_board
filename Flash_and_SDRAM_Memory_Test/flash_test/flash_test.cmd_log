@@ -1,0 +1,106 @@
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -ifn flash_test.xst -ofn flash_test.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -dd _ngo -nt timestamp -uc "flash_test.ucf" -p xc3s200-tq144-5 "flash_test.ngc" flash_test.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o flash_test_map.ncd flash_test.ngd flash_test.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -w -intstyle ise -ol std -t 1 flash_test_map.ncd flash_test.ncd flash_test.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -e 3 -s 5 -xml flash_test flash_test.ncd -o flash_test.twr flash_test.pcf -ucf flash_test.ucf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/Flash test/MMfpga12_M28W640/flash_test/flash_test.ise" -intstyle ise -f flash_test.ut flash_test.ncd

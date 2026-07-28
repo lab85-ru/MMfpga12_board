@@ -1,0 +1,111 @@
+--------------------------------------------------------------------------------
+Release 8.1i Trace I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise VGA.ise -intstyle ise -e 3 -l 3 -s 5 -xml VGA
+VGA.ncd -o VGA.twr VGA.pcf
+
+
+Design file:              vga.ncd
+Physical constraint file: vga.pcf
+Device,speed:             xc3s200,-5 (PRODUCTION 1.37 2005-11-04)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK_50MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_50MHz      |    8.361|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW_i<0>        |BLUE<0>        |   12.083|
+SW_i<0>        |BLUE<1>        |   12.758|
+SW_i<0>        |BLUE<2>        |   12.826|
+SW_i<0>        |GREEN<0>       |   12.599|
+SW_i<0>        |GREEN<1>       |   12.106|
+SW_i<0>        |GREEN<2>       |   12.396|
+SW_i<0>        |RED<0>         |   11.918|
+SW_i<0>        |RED<1>         |   12.148|
+SW_i<0>        |RED<2>         |   12.238|
+SW_i<1>        |BLUE<0>        |   12.280|
+SW_i<1>        |BLUE<1>        |   12.955|
+SW_i<1>        |BLUE<2>        |   13.023|
+SW_i<1>        |GREEN<0>       |   12.796|
+SW_i<1>        |GREEN<1>       |   12.303|
+SW_i<1>        |GREEN<2>       |   12.593|
+SW_i<1>        |RED<0>         |   12.115|
+SW_i<1>        |RED<1>         |   12.345|
+SW_i<1>        |RED<2>         |   12.435|
+SW_i<2>        |BLUE<0>        |   12.303|
+SW_i<2>        |BLUE<1>        |   12.978|
+SW_i<2>        |BLUE<2>        |   13.046|
+SW_i<2>        |GREEN<0>       |   12.819|
+SW_i<2>        |GREEN<1>       |   12.326|
+SW_i<2>        |GREEN<2>       |   12.616|
+SW_i<2>        |RED<0>         |   12.138|
+SW_i<2>        |RED<1>         |   12.368|
+SW_i<2>        |RED<2>         |   12.458|
+SW_i<3>        |BLUE<0>        |   11.836|
+SW_i<3>        |BLUE<1>        |   12.511|
+SW_i<3>        |BLUE<2>        |   12.579|
+SW_i<3>        |GREEN<0>       |   12.352|
+SW_i<3>        |GREEN<1>       |   11.859|
+SW_i<3>        |GREEN<2>       |   12.149|
+SW_i<3>        |RED<0>         |   11.671|
+SW_i<3>        |RED<1>         |   11.901|
+SW_i<3>        |RED<2>         |   11.991|
+SW_i<4>        |BLUE<0>        |   11.715|
+SW_i<4>        |BLUE<1>        |   12.390|
+SW_i<4>        |BLUE<2>        |   12.458|
+SW_i<4>        |GREEN<0>       |   12.231|
+SW_i<4>        |GREEN<1>       |   11.738|
+SW_i<4>        |GREEN<2>       |   12.028|
+SW_i<4>        |RED<0>         |   11.550|
+SW_i<4>        |RED<1>         |   11.780|
+SW_i<4>        |RED<2>         |   11.870|
+SW_i<5>        |BLUE<0>        |   11.075|
+SW_i<5>        |BLUE<1>        |   11.750|
+SW_i<5>        |BLUE<2>        |   11.818|
+SW_i<5>        |GREEN<0>       |   11.591|
+SW_i<5>        |GREEN<1>       |   11.098|
+SW_i<5>        |GREEN<2>       |   11.388|
+SW_i<5>        |RED<0>         |   10.910|
+SW_i<5>        |RED<1>         |   11.140|
+SW_i<5>        |RED<2>         |   11.230|
+SW_i<6>        |BLUE<0>        |   10.550|
+SW_i<6>        |BLUE<1>        |   11.225|
+SW_i<6>        |BLUE<2>        |   11.293|
+SW_i<6>        |GREEN<0>       |   11.066|
+SW_i<6>        |GREEN<1>       |   10.573|
+SW_i<6>        |GREEN<2>       |   10.863|
+SW_i<6>        |RED<0>         |   10.385|
+SW_i<6>        |RED<1>         |   10.615|
+SW_i<6>        |RED<2>         |   10.705|
+---------------+---------------+---------+
+
+Analysis completed Thu Jul 12 14:13:58 2007
+--------------------------------------------------------------------------------
+
+
+
+Peak Memory Usage: 102 MB

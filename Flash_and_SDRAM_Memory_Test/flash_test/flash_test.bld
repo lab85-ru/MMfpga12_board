@@ -1,0 +1,33 @@
+Release 9.1i ngdbuild J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx91i\bin\nt\ngdbuild.exe -ise
+C:/Andrzej_Okulicz_Praktykant_2007/Flash
+test/MMfpga12_M28W640/flash_test/flash_test.ise -intstyle ise -dd _ngo -nt
+timestamp -uc flash_test.ucf -p xc3s200-tq144-5 flash_test.ngc flash_test.ngd
+
+Reading NGO file "C:/Andrzej_Okulicz_Praktykant_2007/Flash
+test/MMfpga12_M28W640/flash_test/flash_test.ngc" ...
+
+Applying constraints in "flash_test.ucf" to the design...
+
+Checking timing specifications ...
+Checking Partitions ...
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 67452 kilobytes
+
+Writing NGD file "flash_test.ngd" ...
+
+Writing NGDBUILD log file "flash_test.bld"...

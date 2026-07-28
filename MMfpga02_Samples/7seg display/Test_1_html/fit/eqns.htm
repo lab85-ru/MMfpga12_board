@@ -1,0 +1,1755 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="paths.js"></script><script src="eqns.js"></script><script>
+      var design = "Test_1";
+      var device = "XA2C256";
+      signals = new Array("LED7_AN_O0_SPECSIG","LED7_AN_O1_SPECSIG","LED7_AN_O2_SPECSIG","LED7_AN_O3_SPECSIG","LED7_AN_O4_SPECSIG","LED7_AN_O5_SPECSIG","LED7_SEG_O0_SPECSIG","LED7_SEG_O1_SPECSIG","LED7_SEG_O2_SPECSIG","LED7_SEG_O3_SPECSIG","LED7_SEG_O4_SPECSIG","LED7_SEG_O5_SPECSIG","LED7_SEG_O6_SPECSIG","LED7_SEG_O7_SPECSIG","Madd__n0014__n0000","Madd__n0014__n0001","Madd__n0014__n0002","Madd__n0014__n0003","Madd__n0014__n0004","Madd__n0014__n0005","Madd__n0014__n0006","Madd__n0014__n0007","Madd__n0014__n0008","Madd__n0014__n0009","Madd__n0014__n0010","Madd__n0014__n0011","Madd__n0014__n0012","Madd__n0014__n0013","Madd__n0015__n0000","Madd__n0015__n0001","Madd__n0015__n0002","Madd__n0015__n0003","Madd__n0015__n0004","Madd__n0015__n0005","Madd__n0015__n0006","Madd__n0015__n0007","Madd__n0015__n0008","Madd__n0015__n0009","Madd__n0015__n0010","Madd__n0015__n0011","Madd__n0015__n0012","Madd__n0015__n0013","Madd__n0015__n0014","Madd__n0015__n0015","Madd__n0015__n0016","Madd__n0015__n0017","Madd__n0015__n0018","Madd__n0015__n0019","Madd__n0015__n0020","Madd__n0015__n0021","Madd__n0015__n0022","Madd__n0015__n0023","_n0008","_n00081","_n000812","_n000813","_n000814","_n00082","_n001014_SPECSIG","_n001015_SPECSIG","_n001041_SPECSIG","_n001046_SPECSIG","_n001047_SPECSIG","_n001051_SPECSIG","_n001055_SPECSIG","_n001073_SPECSIG","_n001101_SPECSIG","_n001103_SPECSIG","_n001113_SPECSIG","_n001124_SPECSIG","_n001133_SPECSIG","_n001141_SPECSIG","_n001143_SPECSIG","_n001151_SPECSIG","_n0012","_n00121","_n001216","_n001217","_n001218","_n001219","_n00122","_n001220","_n001410_SPECSIG","_n001411_SPECSIG","_n001412_SPECSIG","_n001413_SPECSIG","_n001414_SPECSIG","_n001415_SPECSIG","_n00141_SPECSIG","_n00142_SPECSIG","_n00143_SPECSIG","_n00144_SPECSIG","_n00145_SPECSIG","_n00146_SPECSIG","_n00147_SPECSIG","_n00148_SPECSIG","_n00149_SPECSIG","_n001510_SPECSIG","_n001511_SPECSIG","_n001512_SPECSIG","_n001513_SPECSIG","_n001514_SPECSIG","_n001515_SPECSIG","_n001516_SPECSIG","_n001517_SPECSIG","_n001518_SPECSIG","_n001519_SPECSIG","_n00151_SPECSIG","_n001520_SPECSIG","_n001521_SPECSIG","_n001522_SPECSIG","_n001523_SPECSIG","_n001524_SPECSIG","_n001525_SPECSIG","_n00152_SPECSIG","_n00153_SPECSIG","_n00154_SPECSIG","_n00155_SPECSIG","_n00156_SPECSIG","_n00157_SPECSIG","_n00158_SPECSIG","_n00159_SPECSIG","clk_1Hz","clk_led7","counter0_SPECSIG","counter10_SPECSIG","counter11_SPECSIG","counter12_SPECSIG","counter13_SPECSIG","counter14_SPECSIG","counter15_SPECSIG","counter16_SPECSIG","counter17_SPECSIG","counter18_SPECSIG","counter19_SPECSIG","counter1_SPECSIG","counter20_SPECSIG","counter21_SPECSIG","counter22_SPECSIG","counter23_SPECSIG","counter24_SPECSIG","counter25_SPECSIG","counter2_SPECSIG","counter3_SPECSIG","counter4_SPECSIG","counter5_SPECSIG","counter6_SPECSIG","counter7_SPECSIG","counter8_SPECSIG","counter9_SPECSIG","counter_7seg0_SPECSIG","counter_7seg10_SPECSIG","counter_7seg11_SPECSIG","counter_7seg12_SPECSIG","counter_7seg13_SPECSIG","counter_7seg14_SPECSIG","counter_7seg15_SPECSIG","counter_7seg1_SPECSIG","counter_7seg2_SPECSIG","counter_7seg3_SPECSIG","counter_7seg4_SPECSIG","counter_7seg5_SPECSIG","counter_7seg6_SPECSIG","counter_7seg7_SPECSIG","counter_7seg8_SPECSIG","counter_7seg9_SPECSIG","state_FFd1","state_FFd2","state_FFd3");
+      sigNegs = new Array("OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF");
+      sigTypes = new Array("DFF","DFF","DFF","DFF","DFF","DFF","DFFS_SPECSIG","DFFS_SPECSIG","DFFS_SPECSIG","DFFS_SPECSIG","DFFS_SPECSIG","DFFS_SPECSIG","DFFS_SPECSIG","DFFS_SPECSIG","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","DEFF","DEFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF");
+
+      
+        specSig["LED7_SEG_O7_SPECSIG"]=new Array("LED7_SEG_O<7>");
+      
+        specSig["LED7_SEG_O_6BUF0_SPECSIG"]=new Array("LED7_SEG_O_6$BUF0");
+      
+        specSig["LED7_SEG_O_6BUF1_SPECSIG"]=new Array("LED7_SEG_O_6$BUF1");
+      
+        specSig["_n001015_SPECSIG"]=new Array("_n0010<1>5");
+      
+        specSig["_n001014_SPECSIG"]=new Array("_n0010<1>4");
+      
+        specSig["_n001041_SPECSIG"]=new Array("_n0010<4>1");
+      
+        specSig["_n001047_SPECSIG"]=new Array("_n0010<4>7");
+      
+        specSig["_n001046_SPECSIG"]=new Array("_n0010<4>6");
+      
+        specSig["_n001051_SPECSIG"]=new Array("_n0010<5>1");
+      
+        specSig["_n001055_SPECSIG"]=new Array("_n0010<5>5");
+      
+        specSig["_n001073_SPECSIG"]=new Array("_n0010<7>3");
+      
+        specSig["_n001101_SPECSIG"]=new Array("_n0011<0>1");
+      
+        specSig["_n001103_SPECSIG"]=new Array("_n0011<0>3");
+      
+        specSig["_n001113_SPECSIG"]=new Array("_n0011<1>3");
+      
+        specSig["_n001124_SPECSIG"]=new Array("_n0011<2>4");
+      
+        specSig["_n001133_SPECSIG"]=new Array("_n0011<3>3");
+      
+        specSig["_n001143_SPECSIG"]=new Array("_n0011<4>3");
+      
+        specSig["_n001141_SPECSIG"]=new Array("_n0011<4>1");
+      
+        specSig["_n001151_SPECSIG"]=new Array("_n0011<5>1");
+      
+        specSig["_n00141_SPECSIG"]=new Array("_n0014<1>");
+      
+        specSig["_n00142_SPECSIG"]=new Array("_n0014<2>");
+      
+        specSig["_n00143_SPECSIG"]=new Array("_n0014<3>");
+      
+        specSig["_n00144_SPECSIG"]=new Array("_n0014<4>");
+      
+        specSig["_n00145_SPECSIG"]=new Array("_n0014<5>");
+      
+        specSig["_n00146_SPECSIG"]=new Array("_n0014<6>");
+      
+        specSig["_n00147_SPECSIG"]=new Array("_n0014<7>");
+      
+        specSig["_n00148_SPECSIG"]=new Array("_n0014<8>");
+      
+        specSig["_n00149_SPECSIG"]=new Array("_n0014<9>");
+      
+        specSig["_n001410_SPECSIG"]=new Array("_n0014<10>");
+      
+        specSig["_n001411_SPECSIG"]=new Array("_n0014<11>");
+      
+        specSig["_n001412_SPECSIG"]=new Array("_n0014<12>");
+      
+        specSig["_n001413_SPECSIG"]=new Array("_n0014<13>");
+      
+        specSig["_n001414_SPECSIG"]=new Array("_n0014<14>");
+      
+        specSig["_n001415_SPECSIG"]=new Array("_n0014<15>");
+      
+        specSig["_n00151_SPECSIG"]=new Array("_n0015<1>");
+      
+        specSig["_n00152_SPECSIG"]=new Array("_n0015<2>");
+      
+        specSig["_n00153_SPECSIG"]=new Array("_n0015<3>");
+      
+        specSig["_n00154_SPECSIG"]=new Array("_n0015<4>");
+      
+        specSig["_n00155_SPECSIG"]=new Array("_n0015<5>");
+      
+        specSig["_n00156_SPECSIG"]=new Array("_n0015<6>");
+      
+        specSig["_n00157_SPECSIG"]=new Array("_n0015<7>");
+      
+        specSig["_n00158_SPECSIG"]=new Array("_n0015<8>");
+      
+        specSig["_n00159_SPECSIG"]=new Array("_n0015<9>");
+      
+        specSig["_n001510_SPECSIG"]=new Array("_n0015<10>");
+      
+        specSig["_n001511_SPECSIG"]=new Array("_n0015<11>");
+      
+        specSig["_n001512_SPECSIG"]=new Array("_n0015<12>");
+      
+        specSig["_n001513_SPECSIG"]=new Array("_n0015<13>");
+      
+        specSig["_n001514_SPECSIG"]=new Array("_n0015<14>");
+      
+        specSig["_n001515_SPECSIG"]=new Array("_n0015<15>");
+      
+        specSig["_n001516_SPECSIG"]=new Array("_n0015<16>");
+      
+        specSig["_n001517_SPECSIG"]=new Array("_n0015<17>");
+      
+        specSig["_n001518_SPECSIG"]=new Array("_n0015<18>");
+      
+        specSig["_n001519_SPECSIG"]=new Array("_n0015<19>");
+      
+        specSig["_n001520_SPECSIG"]=new Array("_n0015<20>");
+      
+        specSig["_n001521_SPECSIG"]=new Array("_n0015<21>");
+      
+        specSig["_n001522_SPECSIG"]=new Array("_n0015<22>");
+      
+        specSig["_n001523_SPECSIG"]=new Array("_n0015<23>");
+      
+        specSig["_n001524_SPECSIG"]=new Array("_n0015<24>");
+      
+        specSig["_n001525_SPECSIG"]=new Array("_n0015<25>");
+      
+        specSig["counter0_SPECSIG"]=new Array("counter<0>");
+      
+        specSig["counter1_SPECSIG"]=new Array("counter<1>");
+      
+        specSig["counter2_SPECSIG"]=new Array("counter<2>");
+      
+        specSig["counter3_SPECSIG"]=new Array("counter<3>");
+      
+        specSig["counter4_SPECSIG"]=new Array("counter<4>");
+      
+        specSig["counter5_SPECSIG"]=new Array("counter<5>");
+      
+        specSig["counter6_SPECSIG"]=new Array("counter<6>");
+      
+        specSig["counter7_SPECSIG"]=new Array("counter<7>");
+      
+        specSig["counter8_SPECSIG"]=new Array("counter<8>");
+      
+        specSig["counter9_SPECSIG"]=new Array("counter<9>");
+      
+        specSig["counter10_SPECSIG"]=new Array("counter<10>");
+      
+        specSig["counter11_SPECSIG"]=new Array("counter<11>");
+      
+        specSig["counter12_SPECSIG"]=new Array("counter<12>");
+      
+        specSig["counter13_SPECSIG"]=new Array("counter<13>");
+      
+        specSig["counter14_SPECSIG"]=new Array("counter<14>");
+      
+        specSig["counter15_SPECSIG"]=new Array("counter<15>");
+      
+        specSig["counter16_SPECSIG"]=new Array("counter<16>");
+      
+        specSig["counter17_SPECSIG"]=new Array("counter<17>");
+      
+        specSig["counter18_SPECSIG"]=new Array("counter<18>");
+      
+        specSig["counter19_SPECSIG"]=new Array("counter<19>");
+      
+        specSig["counter20_SPECSIG"]=new Array("counter<20>");
+      
+        specSig["counter21_SPECSIG"]=new Array("counter<21>");
+      
+        specSig["counter22_SPECSIG"]=new Array("counter<22>");
+      
+        specSig["counter23_SPECSIG"]=new Array("counter<23>");
+      
+        specSig["counter24_SPECSIG"]=new Array("counter<24>");
+      
+        specSig["counter25_SPECSIG"]=new Array("counter<25>");
+      
+        specSig["counter_7seg0_SPECSIG"]=new Array("counter_7seg<0>");
+      
+        specSig["counter_7seg1_SPECSIG"]=new Array("counter_7seg<1>");
+      
+        specSig["counter_7seg2_SPECSIG"]=new Array("counter_7seg<2>");
+      
+        specSig["counter_7seg3_SPECSIG"]=new Array("counter_7seg<3>");
+      
+        specSig["counter_7seg4_SPECSIG"]=new Array("counter_7seg<4>");
+      
+        specSig["counter_7seg5_SPECSIG"]=new Array("counter_7seg<5>");
+      
+        specSig["counter_7seg6_SPECSIG"]=new Array("counter_7seg<6>");
+      
+        specSig["counter_7seg7_SPECSIG"]=new Array("counter_7seg<7>");
+      
+        specSig["counter_7seg8_SPECSIG"]=new Array("counter_7seg<8>");
+      
+        specSig["counter_7seg9_SPECSIG"]=new Array("counter_7seg<9>");
+      
+        specSig["counter_7seg10_SPECSIG"]=new Array("counter_7seg<10>");
+      
+        specSig["counter_7seg11_SPECSIG"]=new Array("counter_7seg<11>");
+      
+        specSig["counter_7seg12_SPECSIG"]=new Array("counter_7seg<12>");
+      
+        specSig["counter_7seg13_SPECSIG"]=new Array("counter_7seg<13>");
+      
+        specSig["counter_7seg14_SPECSIG"]=new Array("counter_7seg<14>");
+      
+        specSig["counter_7seg15_SPECSIG"]=new Array("counter_7seg<15>");
+      
+        specSig["DFFS_SPECSIG"]=new Array("DFF/S");
+      
+        specSig["LED7_SEG_O6_SPECSIG"]=new Array("LED7_SEG_O<6>");
+      
+        specSig["LED7_AN_O0_SPECSIG"]=new Array("LED7_AN_O<0>");
+      
+        specSig["LED7_AN_O1_SPECSIG"]=new Array("LED7_AN_O<1>");
+      
+        specSig["LED7_AN_O2_SPECSIG"]=new Array("LED7_AN_O<2>");
+      
+        specSig["LED7_AN_O3_SPECSIG"]=new Array("LED7_AN_O<3>");
+      
+        specSig["LED7_AN_O4_SPECSIG"]=new Array("LED7_AN_O<4>");
+      
+        specSig["LED7_AN_O5_SPECSIG"]=new Array("LED7_AN_O<5>");
+      
+        specSig["LED7_SEG_O1_SPECSIG"]=new Array("LED7_SEG_O<1>");
+      
+        specSig["LED7_SEG_O4_SPECSIG"]=new Array("LED7_SEG_O<4>");
+      
+        specSig["LED7_SEG_O5_SPECSIG"]=new Array("LED7_SEG_O<5>");
+      
+        specSig["LED7_SEG_O0_SPECSIG"]=new Array("LED7_SEG_O<0>");
+      
+        specSig["LED7_SEG_O3_SPECSIG"]=new Array("LED7_SEG_O<3>");
+      
+        specSig["LED7_SEG_O2_SPECSIG"]=new Array("LED7_SEG_O<2>");
+      
+            pterms["INPUTPINS_1_1"]=new Array("/_n001410_SPECSIG","/_n001411_SPECSIG","/_n001412_SPECSIG","/_n001413_SPECSIG","/_n00142_SPECSIG","/_n00143_SPECSIG","/_n00145_SPECSIG","/_n00147_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter0_SPECSIG","_n00157_SPECSIG","_n001512_SPECSIG","_n001513_SPECSIG","_n001514_SPECSIG","_n001515_SPECSIG","_n001519_SPECSIG","_n001517_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n001510_SPECSIG","/_n001511_SPECSIG","/_n001516_SPECSIG","/_n00154_SPECSIG","/_n00155_SPECSIG","/_n00156_SPECSIG","/_n00158_SPECSIG","/_n00159_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/clk_led7");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_4"]=new Array("_n0008");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/clk_1Hz");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_4"]=new Array("_n0012");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg0_SPECSIG","_n00144_SPECSIG","_n00146_SPECSIG","_n00148_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n00151_SPECSIG","/_n00152_SPECSIG","/_n00153_SPECSIG","_n001523_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("_n001520_SPECSIG","_n001521_SPECSIG","_n001522_SPECSIG","_n001525_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/clk_1Hz");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("clk_1Hz","state_FFd2");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("_n00121","_n001219","_n001220");
+          
+            pterms["INPUTPINS_1_1"]=new Array("clk_1Hz","/state_FFd1");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("clk_1Hz","state_FFd3");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("_n00081","_n000814","_n000813");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/counter0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/counter_7seg0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0008");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter10_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0009");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter11_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001512_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001513_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001514_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001515_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0014");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter16_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001517_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0016");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter18_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001519_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter1_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001520_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001521_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001522_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001523_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0022");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter24_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0000");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter2_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0001");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter3_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0002");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter4_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0003");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter5_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0004");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter6_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n00157_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0006");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter8_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0007");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter9_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0008");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg10_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0009");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg11_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0010");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg12_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0011");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg13_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0008","_n001414_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg1_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0000");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg2_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0001");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg3_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0008","_n00144_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0003");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg5_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0008","_n00146_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0005");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg7_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0008","_n00148_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0008","_n00149_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0012","_n001525_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n0008","_n001415_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_50MHz");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/state_FFd1");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/state_FFd2");
+          
+            pterms["INPUTPINS_1_3"]=new Array("state_FFd3");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/state_FFd1");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/state_FFd2");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/state_FFd3");
+          
+            pterms["INPUTPINS_1_1"]=new Array("state_FFd1");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/state_FFd2");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/state_FFd3");
+          
+            pterms["INPUTPINS_1_1"]=new Array("state_FFd1");
+          
+            pterms["INPUTPINS_1_2"]=new Array("state_FFd2");
+          
+            pterms["INPUTPINS_1_3"]=new Array("state_FFd3");
+          
+            pterms["INPUTPINS_1_1"]=new Array("clk_1Hz","_n001103_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("clk_1Hz","_n001113_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("clk_1Hz","_n001124_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("clk_1Hz","_n001133_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("clk_1Hz","_n001143_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("clk_1Hz","_n001151_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/clk_1Hz");
+          
+            pterms["INPUTPINS_1_2"]=new Array("_n001015_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_4"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("_n001041_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("_n001047_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("_n001046_SPECSIG");
+          
+            pterms["INPUTPINS_1_4"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_5"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/clk_1Hz");
+          
+            pterms["INPUTPINS_1_2"]=new Array("_n001051_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("_n001055_SPECSIG");
+          
+            pterms["INPUTPINS_1_4"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_5"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg0_SPECSIG","counter_7seg1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg2_SPECSIG","Madd__n0014__n0000");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg3_SPECSIG","Madd__n0014__n0001");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg4_SPECSIG","Madd__n0014__n0002");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg5_SPECSIG","Madd__n0014__n0003");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg6_SPECSIG","Madd__n0014__n0004");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg7_SPECSIG","Madd__n0014__n0005");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg8_SPECSIG","Madd__n0014__n0006");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg9_SPECSIG","Madd__n0014__n0007");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg10_SPECSIG","Madd__n0014__n0008");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg11_SPECSIG","Madd__n0014__n0009");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg12_SPECSIG","Madd__n0014__n0010");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg13_SPECSIG","Madd__n0014__n0011");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter0_SPECSIG","counter1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter2_SPECSIG","Madd__n0015__n0000");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter3_SPECSIG","Madd__n0015__n0001");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter4_SPECSIG","Madd__n0015__n0002");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter5_SPECSIG","Madd__n0015__n0003");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter6_SPECSIG","Madd__n0015__n0004");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter7_SPECSIG","Madd__n0015__n0005");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter8_SPECSIG","Madd__n0015__n0006");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter9_SPECSIG","Madd__n0015__n0007");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter10_SPECSIG","Madd__n0015__n0008");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter11_SPECSIG","Madd__n0015__n0009");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter12_SPECSIG","Madd__n0015__n0010");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter13_SPECSIG","Madd__n0015__n0011");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter14_SPECSIG","Madd__n0015__n0012");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter15_SPECSIG","Madd__n0015__n0013");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter16_SPECSIG","Madd__n0015__n0014");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter17_SPECSIG","Madd__n0015__n0015");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter18_SPECSIG","Madd__n0015__n0016");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter19_SPECSIG","Madd__n0015__n0017");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter20_SPECSIG","Madd__n0015__n0018");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter21_SPECSIG","Madd__n0015__n0019");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter22_SPECSIG","Madd__n0015__n0020");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter23_SPECSIG","Madd__n0015__n0021");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0008");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg10_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0009");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg11_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0010");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg12_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0011");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg13_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0012");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg14_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0013");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg15_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0000");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg2_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0001");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg3_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0002");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg4_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0003");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg5_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0004");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg6_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0005");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg7_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0006");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg8_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0014__n0007");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter_7seg9_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0008");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter10_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0009");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter11_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0010");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter12_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0011");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter13_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0012");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter14_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0013");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter15_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0014");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter16_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0015");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter17_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0016");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter18_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0017");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter19_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0018");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter20_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0019");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter21_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0020");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter22_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0021");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter23_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0022");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter24_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0023");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter25_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0000");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter2_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0001");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter3_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0002");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter4_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0003");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter5_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0004");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter6_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0005");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter7_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0006");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter8_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Madd__n0015__n0007");
+          
+            pterms["INPUTPINS_1_2"]=new Array("counter9_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/state_FFd1");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/state_FFd3");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/clk_1Hz");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/state_FFd2");
+          
+            pterms["INPUTPINS_1_1"]=new Array("state_FFd2");
+          
+            pterms["INPUTPINS_1_2"]=new Array("state_FFd3");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/state_FFd1");
+          
+            pterms["INPUTPINS_1_2"]=new Array("_n001101_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("state_FFd1");
+          
+            pterms["INPUTPINS_1_2"]=new Array("state_FFd2");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/state_FFd3");
+          
+            pterms["INPUTPINS_1_2"]=new Array("_n001141_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter_7seg14_SPECSIG","Madd__n0014__n0012");
+          
+            pterms["INPUTPINS_1_1"]=new Array("counter24_SPECSIG","Madd__n0015__n0022");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n00141_SPECSIG","_n001415_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("_n00082","_n000812");
+          
+            pterms["INPUTPINS_1_1"]=new Array("_n001414_SPECSIG","_n00149_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("state_FFd2","_n001014_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("state_FFd1","state_FFd3");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/state_FFd1","/state_FFd3");
+          
+            pterms["INPUTPINS_1_1"]=new Array("state_FFd1","state_FFd3");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/state_FFd1","/state_FFd3");
+          
+            pterms["INPUTPINS_1_1"]=new Array("state_FFd1","/state_FFd2");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/_n001518_SPECSIG","/_n001524_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("_n00122","_n001216");
+          
+            pterms["INPUTPINS_1_1"]=new Array("_n001217","_n001218");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_2"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/clk_1Hz");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/clk_1Hz");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk_led7");
+          
+          d2["LED7_SEG_O7_SPECSIG"]=new Array("FB1_-1","FB1_-1");
+          
+              clk["LED7_SEG_O7_SPECSIG"]=new Array("FB1_-1");
+              
+              set["LED7_SEG_O7_SPECSIG"]=new Array("FB1_-1");
+              prld["LED7_SEG_O7_SPECSIG"]="VCC";
+          d2["_n000813"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00121"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001217"]=new Array("INPUTPINS_1_1");
+          
+          d2["clk_led7"]=new Array("INPUTPINS_1_1");
+          
+              clk["clk_led7"]=new Array("INPUTPINS_1_3");
+              
+              rst["clk_led7"]=new Array("INPUTPINS_1_2");
+              
+          ce["clk_led7"]=new Array("INPUTPINS_1_4");
+          
+          d2["clk_1Hz"]=new Array("INPUTPINS_1_1");
+          
+              clk["clk_1Hz"]=new Array("INPUTPINS_1_3");
+              
+              rst["clk_1Hz"]=new Array("INPUTPINS_1_2");
+              
+          ce["clk_1Hz"]=new Array("INPUTPINS_1_4");
+          
+          d2["_n00081"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001216"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00122"]=new Array("INPUTPINS_1_1");
+          
+          d2["LED7_SEG_O6_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["LED7_SEG_O6_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              set["LED7_SEG_O6_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["state_FFd1"]=new Array("INPUTPINS_1_1");
+          
+              clk["state_FFd1"]=new Array("INPUTPINS_1_3");
+              
+              rst["state_FFd1"]=new Array("INPUTPINS_1_2");
+              
+          d2["_n0012"]=new Array("INPUTPINS_1_1");
+          
+          d2["state_FFd3"]=new Array("INPUTPINS_1_1");
+          
+              clk["state_FFd3"]=new Array("INPUTPINS_1_3");
+              
+              rst["state_FFd3"]=new Array("INPUTPINS_1_2");
+              
+          d2["state_FFd2"]=new Array("INPUTPINS_1_1");
+          
+              clk["state_FFd2"]=new Array("INPUTPINS_1_3");
+              
+              rst["state_FFd2"]=new Array("INPUTPINS_1_2");
+              
+          d2["_n0008"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter0_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter0_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter0_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["counter_7seg0_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter_7seg0_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter_7seg0_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d1["counter10_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter10_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter10_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter10_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter11_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter11_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter11_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter11_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d2["counter12_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter12_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter12_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["counter13_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter13_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter13_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["counter14_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter14_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter14_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["counter15_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter15_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter15_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d1["counter16_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter16_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter16_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter16_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d2["counter17_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter17_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter17_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d1["counter18_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter18_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter18_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter18_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d2["counter19_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter19_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter19_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d1["counter1_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter1_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter1_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter1_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d2["counter20_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter20_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter20_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["counter21_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter21_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter21_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["counter22_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter22_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter22_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["counter23_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter23_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter23_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d1["counter24_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter24_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter24_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter24_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter2_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter2_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter2_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter2_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter3_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter3_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter3_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter3_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter4_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter4_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter4_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter4_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter5_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter5_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter5_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter5_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter6_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter6_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter6_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter6_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d2["counter7_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter7_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter7_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d1["counter8_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter8_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter8_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter8_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter9_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter9_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter9_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter9_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter_7seg10_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter_7seg10_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter_7seg10_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter_7seg10_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter_7seg11_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter_7seg11_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter_7seg11_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter_7seg11_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter_7seg12_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter_7seg12_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter_7seg12_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter_7seg12_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter_7seg13_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter_7seg13_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter_7seg13_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter_7seg13_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d2["counter_7seg14_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter_7seg14_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter_7seg14_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d1["counter_7seg1_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter_7seg1_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter_7seg1_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter_7seg1_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter_7seg2_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter_7seg2_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter_7seg2_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter_7seg2_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d1["counter_7seg3_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter_7seg3_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter_7seg3_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter_7seg3_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d2["counter_7seg4_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter_7seg4_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter_7seg4_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d1["counter_7seg5_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter_7seg5_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter_7seg5_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter_7seg5_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d2["counter_7seg6_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter_7seg6_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter_7seg6_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d1["counter_7seg7_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["counter_7seg7_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+              clk["counter_7seg7_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              rst["counter_7seg7_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d2["counter_7seg8_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter_7seg8_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter_7seg8_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["counter_7seg9_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter_7seg9_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter_7seg9_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["counter25_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter25_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter25_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["counter_7seg15_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["counter_7seg15_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["counter_7seg15_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["_n001113_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2","INPUTPINS_1_3");
+          
+          d2["_n001124_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2","INPUTPINS_1_3");
+          
+          d2["_n001133_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2","INPUTPINS_1_3");
+          
+          d2["_n001151_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2","INPUTPINS_1_3");
+          
+          d2["LED7_AN_O0_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["LED7_AN_O0_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["LED7_AN_O0_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["LED7_AN_O1_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["LED7_AN_O1_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["LED7_AN_O1_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["LED7_AN_O2_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["LED7_AN_O2_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["LED7_AN_O2_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["LED7_AN_O3_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["LED7_AN_O3_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["LED7_AN_O3_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["LED7_AN_O4_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["LED7_AN_O4_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["LED7_AN_O4_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["LED7_AN_O5_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["LED7_AN_O5_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["LED7_AN_O5_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["LED7_SEG_O1_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+              clk["LED7_SEG_O1_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+              set["LED7_SEG_O1_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+          d2["LED7_SEG_O4_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2","INPUTPINS_1_3");
+          
+              clk["LED7_SEG_O4_SPECSIG"]=new Array("INPUTPINS_1_5");
+              
+              set["LED7_SEG_O4_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+          d2["LED7_SEG_O5_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2","INPUTPINS_1_3");
+          
+              clk["LED7_SEG_O5_SPECSIG"]=new Array("INPUTPINS_1_5");
+              
+              set["LED7_SEG_O5_SPECSIG"]=new Array("INPUTPINS_1_4");
+              
+          d2["Madd__n0014__n0000"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0001"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0002"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0003"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0004"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0005"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0006"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0007"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0008"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0009"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0010"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0011"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0014__n0012"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0000"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0001"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0002"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0003"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0004"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0005"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0006"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0007"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0008"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0009"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0010"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0011"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0012"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0013"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0014"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0015"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0016"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0017"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0018"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0019"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0020"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0021"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0022"]=new Array("INPUTPINS_1_1");
+          
+          d1["_n001410_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001410_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001411_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001411_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001412_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001412_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001413_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001413_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001414_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001414_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001415_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001415_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00141_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00141_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00142_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00142_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00143_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00143_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00144_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00144_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00145_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00145_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00146_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00146_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00147_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00147_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00148_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00148_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00149_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00149_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001510_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001510_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001511_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001511_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001512_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001512_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001513_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001513_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001514_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001514_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001515_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001515_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001516_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001516_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001517_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001517_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001518_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001518_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001519_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001519_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00151_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00151_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001520_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001520_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001521_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001521_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001522_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001522_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001523_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001523_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001524_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001524_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n001525_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001525_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00152_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00152_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00153_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00153_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00154_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00154_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00155_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00155_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00156_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00156_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00157_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00157_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00158_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00158_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d1["_n00159_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00159_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d2["_n001014_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["_n001047_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["_n001101_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["_n001103_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["_n001141_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["_n001143_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["Madd__n0014__n0013"]=new Array("INPUTPINS_1_1");
+          
+          d2["Madd__n0015__n0023"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n000812"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n000814"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n00082"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001015_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001041_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001046_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001051_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001055_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001073_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001218"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001219"]=new Array("INPUTPINS_1_1");
+          
+          d2["_n001220"]=new Array("INPUTPINS_1_1");
+          
+          d2["LED7_SEG_O0_SPECSIG"]=new Array("VCC");
+          
+              clk["LED7_SEG_O0_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+              set["LED7_SEG_O0_SPECSIG"]=new Array("INPUTPINS_1_1");
+              
+          d2["LED7_SEG_O3_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["LED7_SEG_O3_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              set["LED7_SEG_O3_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["LED7_SEG_O2_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["LED7_SEG_O2_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              set["LED7_SEG_O2_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+
+      uimSignals = new Array();
+
+      uimSigNegs = new Array();
+
+      uimPterms = new Array();
+      
+
+      
+        function getEqnList() {
+          var str = "<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>";
+          str += "<center><h3>Equations</h3></center>";
+          str += "<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>";
+          for (s=0; s<uimSignals.length; s++) {
+            str += "<tr><td>";
+            str += retUimEqn(uimSignals[s]);
+            str += "</td></tr>";
+          }
+          for (s=0; s<signals.length; s++) {
+            str += "<tr><td>";
+            str += retEqn(signals[s]);
+            str += "</td></tr>";
+          }
+
+          var legend = retLegend();
+		      if (legend != "") {
+		        str += "<tr><td>" + legend + "</td></tr>";
+		      }
+
+          str += "</table>";
+          str += "<form><span class='pgRef'>";
+
+          if (!parent.leftnav.IsNS()) {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><input type='button' value='back to top' ";
+            str += "onclick='javascript:parent.leftnav.showEqnAll()' ";
+            str += "onmouseover=\"window.status='goto top of page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<input type='button' value='print page' ";
+            str += "onclick='javascript:window.print()' ";
+            str += "onmouseover=\"window.status='print page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+          else {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><a href='javascript:parent.leftnav.showEqnAll()'>back to top</a>";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<a href='javascript:window.print()'>";
+            str += "print page</a>";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+
+          str += "</span></form>";
+          str += "</body></html>";
+          return str;
+        }
+      
+    </script>
+</head></html>

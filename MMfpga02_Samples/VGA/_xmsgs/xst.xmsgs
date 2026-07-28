@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1767" delta="unknown" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1988" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">VGA</arg>&gt;: instances &lt;<arg fmt="%s" index="2">Mcompar__n0026</arg>&gt;, &lt;<arg fmt="%s" index="3">Mcompar__n0028</arg>&gt; of unit &lt;<arg fmt="%s" index="4">LPM_COMPARE_3</arg>&gt; and unit &lt;<arg fmt="%s" index="5">LPM_COMPARE_5</arg>&gt; are dual, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1988" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">VGA</arg>&gt;: instances &lt;<arg fmt="%s" index="2">Mcompar__n0027</arg>&gt;, &lt;<arg fmt="%s" index="3">Mcompar__n0030</arg>&gt; of unit &lt;<arg fmt="%s" index="4">LPM_COMPARE_4</arg>&gt; and unit &lt;<arg fmt="%s" index="5">LPM_COMPARE_7</arg>&gt; are dual, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1988" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">VGA</arg>&gt;: instances &lt;<arg fmt="%s" index="2">Mcompar__n0029</arg>&gt;, &lt;<arg fmt="%s" index="3">Mcompar__n0032</arg>&gt; of unit &lt;<arg fmt="%s" index="4">LPM_COMPARE_6</arg>&gt; and unit &lt;<arg fmt="%s" index="5">LPM_COMPARE_9</arg>&gt; are dual, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1988" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">VGA</arg>&gt;: instances &lt;<arg fmt="%s" index="2">Mcompar__n0031</arg>&gt;, &lt;<arg fmt="%s" index="3">Mcompar__n0034</arg>&gt; of unit &lt;<arg fmt="%s" index="4">LPM_COMPARE_8</arg>&gt; and unit &lt;<arg fmt="%s" index="5">LPM_COMPARE_11</arg>&gt; are dual, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1988" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">VGA</arg>&gt;: instances &lt;<arg fmt="%s" index="2">Mcompar__n0033</arg>&gt;, &lt;<arg fmt="%s" index="3">Mcompar__n0036</arg>&gt; of unit &lt;<arg fmt="%s" index="4">LPM_COMPARE_10</arg>&gt; and unit &lt;<arg fmt="%s" index="5">LPM_COMPARE_13</arg>&gt; are dual, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1988" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">VGA</arg>&gt;: instances &lt;<arg fmt="%s" index="2">Mcompar__n0035</arg>&gt;, &lt;<arg fmt="%s" index="3">Mcompar__n0038</arg>&gt; of unit &lt;<arg fmt="%s" index="4">LPM_COMPARE_12</arg>&gt; and unit &lt;<arg fmt="%s" index="5">LPM_COMPARE_15</arg>&gt; are dual, second instance is removed
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="unknown" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>

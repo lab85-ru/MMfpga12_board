@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="MapLib" num="535" delta="old" >The following Virtex BUFG(s) is/are being retargetted to Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+<arg fmt="%s" index="1">BUFGP symbol &quot;KBCLOCK_BUFGP&quot; (output signal=KBCLOCK_BUFGP),
+BUFGP symbol &quot;clk_50MHz_BUFGP&quot; (output signal=clk_50MHz_BUFGP),
+BUFG symbol &quot;clk_LCD_BUFG&quot; (output signal=clk_LCD)</arg>
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs in the schematic.
+</msg>
+
+<msg type="warning" file="LIT" num="176" delta="old" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_clk_LCD/clk_LCD_BUFG&quot; (output signal=clk_LCD)</arg> has a mix of clock and non-clock loads. The non-clock loads are:
+<arg fmt="%s" index="2">Pin D of clk_LCD</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="new" >The function generator <arg fmt="%s" index="1">_n0007&lt;5&gt;_G</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">_n0007&lt;5&gt;</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+</messages>

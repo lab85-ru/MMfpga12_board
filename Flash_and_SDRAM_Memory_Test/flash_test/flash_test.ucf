@@ -1,0 +1,71 @@
+# EVBfpga MMfpga12 PROPOX www.propox.com
+# Flash Test - M28W640 ver. 1.0
+
+#clock 50MHz
+NET clk_50MHz     loc=P55;
+NET reset         loc=P10;
+
+#Address
+net      Addr<0>  loc=P77;  
+net      Addr<1>  loc=P78;  
+net      Addr<2>  loc=P76;  
+net      Addr<3>  loc=P79;  
+net      Addr<4>  loc=P80;  
+net      Addr<5>  loc=P83;  
+net      Addr<6>  loc=P70;  
+net      Addr<7>  loc=P69;  
+net      Addr<8>  loc=P68;  
+net      Addr<9>  loc=P63;  
+net      Addr<10> loc=P74;  
+net      Addr<11> loc=P60;  
+net      Addr<12> loc=P59;
+net      Addr<13> loc=P28;
+net      Addr<14> loc=P24;
+net      Addr<15> loc=P25;
+net      Addr<16> loc=P20;
+net      Addr<17> loc=P97;
+net      Addr<18> loc=P96;
+net      Addr<19> loc=P95;
+net      Addr<20> loc=P21;
+net      Addr<21> loc=P23;
+
+#Data  
+net      Data<0>  loc=P26; 
+net      Data<1>  loc=P27; 
+net      Data<2>  loc=P30; 
+net      Data<3>  loc=P31; 
+net      Data<4>  loc=P35; 
+net      Data<5>  loc=P36; 
+net      Data<6>  loc=P32; 
+net      Data<7>  loc=P33; 
+net      Data<8>  loc=P52; 
+net      Data<9>  loc=P51; 
+net      Data<10> loc=P50; 
+net      Data<11> loc=P47; 
+net      Data<12> loc=P46; 
+net      Data<13> loc=P44; 
+net      Data<14> loc=P41; 
+net      Data<15> loc=P40;
+
+net		flash_ce loc=P18;
+net		flash_oe loc=P17;
+net		flash_we loc=P89;
+net		flash_rp loc=P92;
+net		flash_wp loc=P93;
+
+#Seven-segment LED display - active low
+net 		LED7_AN_O<5>  loc=P107;	# most left
+net 		LED7_AN_O<4>  loc=P108;
+net 		LED7_AN_O<3>  loc=P104;
+net 		LED7_AN_O<2>  loc=P105;
+net 		LED7_AN_O<1>  loc=P102;
+net 		LED7_AN_O<0>  loc=P103;	# most right
+
+net 		LED7_SEG_O<7> loc=P99;	  # a
+net 		LED7_SEG_O<6> loc=P100;   # b
+net 		LED7_SEG_O<5> loc=P112;   # c
+net 		LED7_SEG_O<4> loc=P98;    # d
+net 		LED7_SEG_O<3> loc=P116;   # e
+net 		LED7_SEG_O<2> loc=P113;   # f
+net 		LED7_SEG_O<1> loc=P119;   # g
+net 		LED7_SEG_O<0> loc=P118;   # dp

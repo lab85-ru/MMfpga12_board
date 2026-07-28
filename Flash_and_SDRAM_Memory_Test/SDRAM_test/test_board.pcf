@@ -1,0 +1,214 @@
+//! **************************************************************************
+// Written by: Map I.24 on Tue Jul 31 14:23:18 2007
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "sData<10>" LOCATE = SITE "P50" LEVEL 1;
+COMP "sData<11>" LOCATE = SITE "P47" LEVEL 1;
+COMP "sData<12>" LOCATE = SITE "P46" LEVEL 1;
+COMP "sData<13>" LOCATE = SITE "P44" LEVEL 1;
+COMP "sData<14>" LOCATE = SITE "P41" LEVEL 1;
+COMP "sData<15>" LOCATE = SITE "P40" LEVEL 1;
+COMP "cas_n" LOCATE = SITE "P82" LEVEL 1;
+COMP "s<0>" LOCATE = SITE "P119" LEVEL 1;
+COMP "s<1>" LOCATE = SITE "P113" LEVEL 1;
+COMP "dp" LOCATE = SITE "P118" LEVEL 1;
+COMP "s<2>" LOCATE = SITE "P116" LEVEL 1;
+COMP "s<3>" LOCATE = SITE "P98" LEVEL 1;
+COMP "s<4>" LOCATE = SITE "P112" LEVEL 1;
+COMP "s<5>" LOCATE = SITE "P100" LEVEL 1;
+COMP "s<6>" LOCATE = SITE "P99" LEVEL 1;
+COMP "ras_n" LOCATE = SITE "P85" LEVEL 1;
+COMP "reset" LOCATE = SITE "P10" LEVEL 1;
+COMP "SW<0>" LOCATE = SITE "P14" LEVEL 1;
+COMP "SW<1>" LOCATE = SITE "P13" LEVEL 1;
+COMP "SW<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "SW<3>" LOCATE = SITE "P11" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "P129" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "P131" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "P130" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "P135" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "P137" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "P140" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "P141" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "P15" LEVEL 1;
+COMP "ce_n" LOCATE = SITE "P18" LEVEL 1;
+COMP "cs_n" LOCATE = SITE "P73" LEVEL 1;
+COMP "dqmh" LOCATE = SITE "P53" LEVEL 1;
+COMP "dqml" LOCATE = SITE "P90" LEVEL 1;
+COMP "sAddr<10>" LOCATE = SITE "P74" LEVEL 1;
+COMP "sAddr<11>" LOCATE = SITE "P60" LEVEL 1;
+COMP "sAddr<12>" LOCATE = SITE "P59" LEVEL 1;
+COMP "sclk" LOCATE = SITE "P56" LEVEL 1;
+COMP "we_n" LOCATE = SITE "P84" LEVEL 1;
+COMP "cke" LOCATE = SITE "P57" LEVEL 1;
+COMP "clk" LOCATE = SITE "P55" LEVEL 1;
+COMP "ba<0>" LOCATE = SITE "P87" LEVEL 1;
+COMP "ba<1>" LOCATE = SITE "P86" LEVEL 1;
+COMP "USER1" LOCATE = SITE "P124" LEVEL 1;
+COMP "buzzer" LOCATE = SITE "P125" LEVEL 1;
+COMP "USER2" LOCATE = SITE "P127" LEVEL 1;
+COMP "sAddr<0>" LOCATE = SITE "P77" LEVEL 1;
+COMP "sAddr<1>" LOCATE = SITE "P78" LEVEL 1;
+COMP "sAddr<2>" LOCATE = SITE "P76" LEVEL 1;
+COMP "sAddr<3>" LOCATE = SITE "P79" LEVEL 1;
+COMP "sAddr<4>" LOCATE = SITE "P80" LEVEL 1;
+COMP "sAddr<5>" LOCATE = SITE "P83" LEVEL 1;
+COMP "sAddr<6>" LOCATE = SITE "P70" LEVEL 1;
+COMP "sAddr<7>" LOCATE = SITE "P69" LEVEL 1;
+COMP "sAddr<8>" LOCATE = SITE "P68" LEVEL 1;
+COMP "sAddr<9>" LOCATE = SITE "P63" LEVEL 1;
+COMP "en<0>" LOCATE = SITE "P103" LEVEL 1;
+COMP "en<1>" LOCATE = SITE "P102" LEVEL 1;
+COMP "en<2>" LOCATE = SITE "P105" LEVEL 1;
+COMP "en<3>" LOCATE = SITE "P104" LEVEL 1;
+COMP "en<4>" LOCATE = SITE "P108" LEVEL 1;
+COMP "en<5>" LOCATE = SITE "P107" LEVEL 1;
+COMP "sData<0>" LOCATE = SITE "P26" LEVEL 1;
+COMP "sData<1>" LOCATE = SITE "P27" LEVEL 1;
+COMP "sData<2>" LOCATE = SITE "P30" LEVEL 1;
+COMP "sData<3>" LOCATE = SITE "P31" LEVEL 1;
+COMP "sData<4>" LOCATE = SITE "P35" LEVEL 1;
+COMP "sData<5>" LOCATE = SITE "P36" LEVEL 1;
+COMP "sData<6>" LOCATE = SITE "P32" LEVEL 1;
+COMP "sData<7>" LOCATE = SITE "P33" LEVEL 1;
+COMP "sData<8>" LOCATE = SITE "P52" LEVEL 1;
+COMP "sData<9>" LOCATE = SITE "P51" LEVEL 1;
+PIN u0/u1/dllint_pins<20> = BEL "u0/u1/dllint" PINNAME CLKIN;
+PIN u0/u1/dllext_pins<20> = BEL "u0/u1/dllext" PINNAME CLKIN;
+TIMEGRP clk = BEL "USER1" BEL "USER2" BEL "clk_1Hz" BEL "LED_0" BEL "LED_1"
+        BEL "LED_2" BEL "LED_3" BEL "LED_4" BEL "LED_5" BEL "LED_6" BEL
+        "LED_7" BEL "u0/rst_i" BEL "counter_0" BEL "counter_1" BEL "counter_2"
+        BEL "counter_3" BEL "counter_4" BEL "counter_5" BEL "counter_6" BEL
+        "counter_7" BEL "counter_8" BEL "counter_9" BEL "counter_10" BEL
+        "counter_11" BEL "counter_12" BEL "counter_13" BEL "counter_14" BEL
+        "counter_15" BEL "counter_16" BEL "counter_17" BEL "counter_18" BEL
+        "counter_19" BEL "counter_20" BEL "counter_21" BEL "counter_22" BEL
+        "counter_23" BEL "counter_24" BEL "counter_25" BEL "u0/count_0" BEL
+        "u0/count_1" BEL "u0/count_2" BEL "u0/count_3" BEL "u0/count_4" BEL
+        "u0/count_5" BEL "u0/count_6" BEL "u0/count_7" BEL "u0/count_8" BEL
+        "u0/count_9" BEL "u0/count_10" BEL "u0/count_11" BEL "u0/count_12" BEL
+        "u0/count_13" BEL "u0/count_14" BEL "u0/count_15" BEL "u0/count_16"
+        BEL "u0/count_17" BEL "u0/count_18" BEL "u0/count_19" BEL
+        "u0/count_20" BEL "u0/count_21" BEL "u0/count_22" BEL "u0/count_23"
+        BEL "u0/count_24" BEL "u0/count_25" BEL "u0/count_26" BEL
+        "u0/count_27" BEL "u0/divCnt_0" BEL "u0/divCnt_1" BEL "u0/divCnt_2"
+        BEL "u0/divCnt_3" BEL "u0/divCnt_4" BEL "u0/divCnt_5" BEL
+        "u0/divCnt_6" BEL "u0/divCnt_7" BEL "u0/divCnt_8" BEL "u0/divCnt_9"
+        BEL "u0/divCnt_10" BEL "u0/divCnt_11" BEL "u0/divCnt_12" BEL
+        "u0/divCnt_13" BEL "u0/divCnt_14" BEL "u0/divCnt_15" BEL
+        "u0/divCnt_16" BEL "Mshreg_u0/syncButton_0/SRL16E" BEL
+        "u0/syncButton_0" PIN "u0/u1/dllint_pins<20>" PIN
+        "u0/u1/dllext_pins<20>";
+TIMEGRP u0_u1_int_clk1x = BEL "u0/u1/u1/cke_r" BEL "u0/u1/u1/ba_r_0" BEL
+        "u0/u1/u1/ba_r_1" BEL "u0/u1/u1/sAddr_r_0" BEL "u0/u1/u1/sAddr_r_1"
+        BEL "u0/u1/u1/sAddr_r_2" BEL "u0/u1/u1/sAddr_r_3" BEL
+        "u0/u1/u1/sAddr_r_4" BEL "u0/u1/u1/sAddr_r_5" BEL "u0/u1/u1/sAddr_r_6"
+        BEL "u0/u1/u1/sAddr_r_7" BEL "u0/u1/u1/sAddr_r_8" BEL
+        "u0/u1/u1/sAddr_r_9" BEL "u0/u1/u1/sAddr_r_10" BEL
+        "u0/u1/u1/sAddr_r_11" BEL "u0/u1/u1/sAddr_r_12" BEL
+        "u0/u1/u1/sData_r_0" BEL "u0/u1/u1/sData_r_1" BEL "u0/u1/u1/sData_r_2"
+        BEL "u0/u1/u1/sData_r_3" BEL "u0/u1/u1/sData_r_4" BEL
+        "u0/u1/u1/sData_r_5" BEL "u0/u1/u1/sData_r_6" BEL "u0/u1/u1/sData_r_7"
+        BEL "u0/u1/u1/sData_r_8" BEL "u0/u1/u1/sData_r_9" BEL
+        "u0/u1/u1/sData_r_10" BEL "u0/u1/u1/sData_r_11" BEL
+        "u0/u1/u1/sData_r_12" BEL "u0/u1/u1/sData_r_13" BEL
+        "u0/u1/u1/sData_r_14" BEL "u0/u1/u1/sData_r_15" BEL
+        "u0/u1/u1/rdPipeline_r_0" BEL "u0/u1/u1/rdPipeline_r_1" BEL
+        "u0/u1/u1/rdPipeline_r_2" BEL "u0/u1/u1/rdPipeline_r_3" BEL
+        "u0/u1/u1/rdPipeline_r_4" BEL "u0/u1/u1/activeBank_r" BEL
+        "u0/u1/u1/activeRow_r_0_0" BEL "u0/u1/u1/activeRow_r_0_1" BEL
+        "u0/u1/u1/activeRow_r_0_2" BEL "u0/u1/u1/activeRow_r_0_3" BEL
+        "u0/u1/u1/activeRow_r_0_4" BEL "u0/u1/u1/activeRow_r_0_5" BEL
+        "u0/u1/u1/activeRow_r_0_6" BEL "u0/u1/u1/activeRow_r_0_7" BEL
+        "u0/u1/u1/activeRow_r_0_8" BEL "u0/u1/u1/activeRow_r_0_9" BEL
+        "u0/u1/u1/activeRow_r_0_10" BEL "u0/u1/u1/activeRow_r_0_11" BEL
+        "u0/u1/u1/activeRow_r_0_12" BEL "u0/u1/u1/rfshCntr_r_0" BEL
+        "u0/u1/u1/rfshCntr_r_1" BEL "u0/u1/u1/rfshCntr_r_2" BEL
+        "u0/u1/u1/rfshCntr_r_3" BEL "u0/u1/u1/rfshCntr_r_4" BEL
+        "u0/u1/u1/rfshCntr_r_5" BEL "u0/u1/u1/rfshCntr_r_6" BEL
+        "u0/u1/u1/rfshCntr_r_7" BEL "u0/u1/u1/rfshCntr_r_8" BEL
+        "u0/u1/u1/rfshCntr_r_9" BEL "u0/u1/u1/rfshCntr_r_10" BEL
+        "u0/u1/u1/rfshCntr_r_11" BEL "u0/u1/u1/rfshCntr_r_12" BEL
+        "u0/u1/u1/rfshCntr_r_13" BEL "u0/u1/u1/activeRow_r_1_0" BEL
+        "u0/u1/u1/activeRow_r_1_1" BEL "u0/u1/u1/activeRow_r_1_2" BEL
+        "u0/u1/u1/activeRow_r_1_3" BEL "u0/u1/u1/activeRow_r_1_4" BEL
+        "u0/u1/u1/activeRow_r_1_5" BEL "u0/u1/u1/activeRow_r_1_6" BEL
+        "u0/u1/u1/activeRow_r_1_7" BEL "u0/u1/u1/activeRow_r_1_8" BEL
+        "u0/u1/u1/activeRow_r_1_9" BEL "u0/u1/u1/activeRow_r_1_10" BEL
+        "u0/u1/u1/activeRow_r_1_11" BEL "u0/u1/u1/activeRow_r_1_12" BEL
+        "u0/u1/u1/timer_r_0" BEL "u0/u1/u1/timer_r_1" BEL "u0/u1/u1/timer_r_2"
+        BEL "u0/u1/u1/timer_r_3" BEL "u0/u1/u1/timer_r_4" BEL
+        "u0/u1/u1/timer_r_5" BEL "u0/u1/u1/timer_r_6" BEL "u0/u1/u1/timer_r_7"
+        BEL "u0/u1/u1/timer_r_8" BEL "u0/u1/u1/timer_r_9" BEL
+        "u0/u1/u1/timer_r_10" BEL "u0/u1/u1/timer_r_11" BEL
+        "u0/u1/u1/timer_r_12" BEL "u0/u1/u1/timer_r_13" BEL
+        "u0/u1/u1/activeRow_r_2_0" BEL "u0/u1/u1/activeRow_r_2_1" BEL
+        "u0/u1/u1/activeRow_r_2_2" BEL "u0/u1/u1/activeRow_r_2_3" BEL
+        "u0/u1/u1/activeRow_r_2_4" BEL "u0/u1/u1/activeRow_r_2_5" BEL
+        "u0/u1/u1/activeRow_r_2_6" BEL "u0/u1/u1/activeRow_r_2_7" BEL
+        "u0/u1/u1/activeRow_r_2_8" BEL "u0/u1/u1/activeRow_r_2_9" BEL
+        "u0/u1/u1/activeRow_r_2_10" BEL "u0/u1/u1/activeRow_r_2_11" BEL
+        "u0/u1/u1/activeRow_r_2_12" BEL "u0/u1/u1/rasTimer_r_0" BEL
+        "u0/u1/u1/rasTimer_r_1" BEL "u0/u1/u1/activeRow_r_3_0" BEL
+        "u0/u1/u1/activeRow_r_3_1" BEL "u0/u1/u1/activeRow_r_3_2" BEL
+        "u0/u1/u1/activeRow_r_3_3" BEL "u0/u1/u1/activeRow_r_3_4" BEL
+        "u0/u1/u1/activeRow_r_3_5" BEL "u0/u1/u1/activeRow_r_3_6" BEL
+        "u0/u1/u1/activeRow_r_3_7" BEL "u0/u1/u1/activeRow_r_3_8" BEL
+        "u0/u1/u1/activeRow_r_3_9" BEL "u0/u1/u1/activeRow_r_3_10" BEL
+        "u0/u1/u1/activeRow_r_3_11" BEL "u0/u1/u1/activeRow_r_3_12" BEL
+        "u0/u1/u1/activeFlag_r_3" BEL "u0/u1/u1/activeFlag_r_2" BEL
+        "u0/u1/u1/activeFlag_r_1" BEL "u0/u1/u1/activeFlag_r_0" BEL
+        "u0/u1/u1/wrTimer_r_0" BEL "u0/u1/u1/hDOut_r_0" BEL
+        "u0/u1/u1/hDOut_r_1" BEL "u0/u1/u1/hDOut_r_2" BEL "u0/u1/u1/hDOut_r_3"
+        BEL "u0/u1/u1/hDOut_r_4" BEL "u0/u1/u1/hDOut_r_5" BEL
+        "u0/u1/u1/hDOut_r_6" BEL "u0/u1/u1/hDOut_r_7" BEL "u0/u1/u1/hDOut_r_8"
+        BEL "u0/u1/u1/hDOut_r_9" BEL "u0/u1/u1/hDOut_r_10" BEL
+        "u0/u1/u1/hDOut_r_11" BEL "u0/u1/u1/hDOut_r_12" BEL
+        "u0/u1/u1/hDOut_r_13" BEL "u0/u1/u1/hDOut_r_14" BEL
+        "u0/u1/u1/hDOut_r_15" BEL "u0/u1/u1/nopCntr_r_0" BEL
+        "u0/u1/u1/nopCntr_r_1" BEL "u0/u1/u1/nopCntr_r_2" BEL
+        "u0/u1/u1/nopCntr_r_3" BEL "u0/u1/u1/nopCntr_r_4" BEL
+        "u0/u1/u1/nopCntr_r_5" BEL "u0/u1/u1/nopCntr_r_6" BEL
+        "u0/u1/u1/nopCntr_r_7" BEL "u0/u1/u1/nopCntr_r_8" BEL
+        "u0/u1/u1/nopCntr_r_9" BEL "u0/u1/u1/nopCntr_r_10" BEL
+        "u0/u1/u1/nopCntr_r_11" BEL "u0/u1/u1/nopCntr_r_12" BEL
+        "u0/u1/u1/nopCntr_r_13" BEL "u0/u1/u1/refTimer_r_2" BEL
+        "u0/u1/u1/refTimer_r_0" BEL "u0/u1/u1/refTimer_r_1" BEL
+        "u0/u1/u1/refTimer_r_3" BEL "u0/u1/u1/refTimer_r_4" BEL
+        "u0/u1/u1/refTimer_r_5" BEL "u0/u1/u1/refTimer_r_6" BEL
+        "u0/u1/u1/refTimer_r_7" BEL "u0/u1/u1/refTimer_r_8" BEL
+        "u0/u1/u1/cmd_r_2" BEL "u0/u1/u1/cmd_r_0" BEL "u0/u1/u1/cmd_r_3" BEL
+        "u0/u1/u1/cmd_r_4" BEL "u0/u1/u1/state_r_FFd1" BEL
+        "u0/u1/u1/state_r_FFd2" BEL "u0/u1/u1/state_r_FFd3" BEL
+        "u0/u1/u1/state_r_FFd4" BEL "u0/u1/u1/state_r_FFd5" BEL
+        "u0/u1/u1/state_r_FFd6" BEL "u0/u1/u1/state_r_FFd7" BEL
+        "u0/u1/u1/state_r_FFd8" BEL "u0/slow_memtest/addr_r_0" BEL
+        "u0/slow_memtest/addr_r_1" BEL "u0/slow_memtest/addr_r_2" BEL
+        "u0/slow_memtest/addr_r_3" BEL "u0/slow_memtest/addr_r_4" BEL
+        "u0/slow_memtest/addr_r_5" BEL "u0/slow_memtest/addr_r_6" BEL
+        "u0/slow_memtest/addr_r_7" BEL "u0/slow_memtest/addr_r_8" BEL
+        "u0/slow_memtest/addr_r_9" BEL "u0/slow_memtest/addr_r_10" BEL
+        "u0/slow_memtest/addr_r_11" BEL "u0/slow_memtest/addr_r_12" BEL
+        "u0/slow_memtest/addr_r_13" BEL "u0/slow_memtest/addr_r_14" BEL
+        "u0/slow_memtest/addr_r_15" BEL "u0/slow_memtest/addr_r_16" BEL
+        "u0/slow_memtest/addr_r_17" BEL "u0/slow_memtest/addr_r_18" BEL
+        "u0/slow_memtest/addr_r_19" BEL "u0/slow_memtest/addr_r_20" BEL
+        "u0/slow_memtest/addr_r_21" BEL "u0/slow_memtest/addr_r_22" BEL
+        "u0/slow_memtest/addr_r_23" BEL "u0/slow_memtest/err_r" BEL
+        "u0/slow_memtest/state_r_FFd1" BEL "u0/slow_memtest/state_r_FFd2" BEL
+        "u0/slow_memtest/u0/r_r_0" BEL "u0/slow_memtest/u0/r_r_1" BEL
+        "u0/slow_memtest/u0/r_r_2" BEL "u0/slow_memtest/u0/r_r_3" BEL
+        "u0/slow_memtest/u0/r_r_4" BEL "u0/slow_memtest/u0/r_r_5" BEL
+        "u0/slow_memtest/u0/r_r_6" BEL "u0/slow_memtest/u0/r_r_7" BEL
+        "u0/slow_memtest/u0/r_r_8" BEL "u0/slow_memtest/u0/r_r_9" BEL
+        "u0/slow_memtest/u0/r_r_10" BEL "u0/slow_memtest/u0/r_r_11" BEL
+        "u0/slow_memtest/u0/r_r_12" BEL "u0/slow_memtest/u0/r_r_13" BEL
+        "u0/slow_memtest/u0/r_r_14" BEL "u0/slow_memtest/u0/r_r_15" BEL
+        "u0/slow_memtest/addr_r_23_1" BEL "u0/slow_memtest/state_r_FFd2_1" BEL
+        "u0/slow_memtest/addr_r_22_1" BEL "u0/slow_memtest/addr_r_23_2" BEL
+        "u0/slow_memtest/state_r_FFd2_2" BEL "u0/slow_memtest/addr_r_23_3" BEL
+        "u0/slow_memtest/addr_r_23_4";
+TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH 50%;
+TS_u0_u1_int_clk1x = PERIOD TIMEGRP "u0_u1_int_clk1x" TS_clk HIGH 50%;
+SCHEMATIC END;

@@ -1,0 +1,4 @@
+AR switches_leds behavioral C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_3/Test_3.vhd sub00/vhpl01 1184136074
+EN switches_leds NULL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_3/Test_3.vhd sub00/vhpl00 1184136073
+EN test_3 NULL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_3/Test_3.vhd sub00/vhpl02 1184136531
+AR test_3 behavioral C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_3/Test_3.vhd sub00/vhpl03 1184136532

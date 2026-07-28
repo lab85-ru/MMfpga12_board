@@ -1,0 +1,123 @@
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -p xc3s200-tq144-5 LCD.ngc LCD.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -e 3 -l 3 -s 5 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/KLIENT/LCD/LCD" -intstyle ise -f LCD.ut LCD.ncd

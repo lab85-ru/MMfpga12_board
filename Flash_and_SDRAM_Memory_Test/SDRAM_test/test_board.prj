@@ -1,0 +1,7 @@
+vhdl work "common.vhd"
+vhdl work "sdramcntl.vhd"
+vhdl work "randgen.vhd"
+vhdl work "xsasdramcntl.vhd"
+vhdl work "memtest.vhd"
+vhdl work "test_board_core.vhd"
+vhdl work "test_board.vhd"

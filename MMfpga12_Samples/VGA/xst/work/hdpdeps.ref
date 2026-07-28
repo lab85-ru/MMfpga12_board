@@ -1,0 +1,9 @@
+V3 3
+FL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA/vga.vhd 2007/07/12.10:50:44 I.24
+EN work/VGA 1184242383 \
+      FL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA/vga.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/VGA/behavior 1184242384 \
+      FL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/VGA/vga.vhd \
+      EN work/VGA 1184242383

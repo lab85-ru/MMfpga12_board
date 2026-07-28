@@ -1,0 +1,59 @@
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -dd _ngo -nt timestamp -uc PS2.ucf -p xc3s200-tq144-5 PS2.ngc PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -w -intstyle ise -ol std -t 1 PS2_map.ncd PS2.ncd PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -e 3 -l 3 -s 5 -xml PS2 PS2.ncd -o PS2.twr PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -f PS2.ut PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -dd _ngo -nt timestamp -uc PS2.ucf -p xc3s200-tq144-5 PS2.ngc PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -w -intstyle ise -ol std -t 1 PS2_map.ncd PS2.ncd PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -e 3 -l 3 -s 5 -xml PS2 PS2.ncd -o PS2.twr PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -f PS2.ut PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -dd _ngo -nt timestamp -uc PS2.ucf -p xc3s200-tq144-5 PS2.ngc PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -w -intstyle ise -ol std -t 1 PS2_map.ncd PS2.ncd PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -e 3 -l 3 -s 5 -xml PS2 PS2.ncd -o PS2.twr PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -f PS2.ut PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -dd _ngo -nt timestamp -uc PS2.ucf -p xc3s200-tq144-5 PS2.ngc PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -w -intstyle ise -ol std -t 1 PS2_map.ncd PS2.ncd PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -e 3 -l 3 -s 5 -xml PS2 PS2.ncd -o PS2.twr PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -f PS2.ut PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -dd _ngo -nt timestamp -uc PS2.ucf -p xc3s200-tq144-5 PS2.ngc PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -w -intstyle ise -ol std -t 1 PS2_map.ncd PS2.ncd PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -e 3 -l 3 -s 5 -xml PS2 PS2.ncd -o PS2.twr PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -f PS2.ut PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -dd _ngo -nt timestamp -uc PS2.ucf -p xc3s200-tq144-5 PS2.ngc PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -w -intstyle ise -ol std -t 1 PS2_map.ncd PS2.ncd PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -e 3 -l 3 -s 5 -xml PS2 PS2.ncd -o PS2.twr PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -f PS2.ut PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -dd _ngo -nt timestamp -uc PS2.ucf -p xc3s200-tq144-5 PS2.ngc PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -w -intstyle ise -ol std -t 1 PS2_map.ncd PS2.ncd PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -e 3 -l 3 -s 5 -xml PS2 PS2.ncd -o PS2.twr PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -f PS2.ut PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -dd _ngo -nt timestamp -uc PS2.ucf -p xc3s200-tq144-5 PS2.ngc PS2.ngd
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -dd _ngo -nt timestamp -uc PS2.ucf -p xc3s200-tq144-5 PS2.ngc PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -w -intstyle ise -ol std -t 1 PS2_map.ncd PS2.ncd PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -e 3 -l 3 -s 5 -xml PS2 PS2.ncd -o PS2.twr PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -f PS2.ut PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -ifn PS2.xst -ofn PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -dd _ngo -nt timestamp -uc PS2.ucf -p xc3s200-tq144-5 PS2.ngc PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -w -intstyle ise -ol std -t 1 PS2_map.ncd PS2.ncd PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -e 3 -l 3 -s 5 -xml PS2 PS2.ncd -o PS2.twr PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/PS2/PS2" -intstyle ise -f PS2.ut PS2.ncd

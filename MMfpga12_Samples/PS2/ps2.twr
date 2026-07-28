@@ -1,0 +1,59 @@
+--------------------------------------------------------------------------------
+Release 8.1i Trace I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise PS2.ise -intstyle ise -e 3 -l 3 -s 5 -xml PS2
+PS2.ncd -o PS2.twr PS2.pcf
+
+
+Design file:              ps2.ncd
+Physical constraint file: ps2.pcf
+Device,speed:             xc3s200,-5 (PRODUCTION 1.37 2005-11-04)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock KBCLOCK
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  |  Clock |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+------------+------------+------------+------------------+--------+
+KBDATA      |    6.818(F)|    2.566(F)|KBCLOCK_BUFGP     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock KBCLOCK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+KBCLOCK        |         |         |         |    7.122|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_50MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+KBCLOCK        |         |   10.286|         |         |
+clk_50MHz      |    9.320|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Analysis completed Tue Jul 17 11:38:41 2007
+--------------------------------------------------------------------------------
+
+
+
+Peak Memory Usage: 108 MB

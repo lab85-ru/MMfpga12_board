@@ -1,0 +1,208 @@
+Release 8.1i par I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+FORD::  Tue Jul 31 14:23:20 2007
+
+par -w -intstyle ise -ol std -t 1 test_board_map.ncd test_board.ncd
+test_board.pcf 
+
+
+Constraints file: test_board.pcf.
+Loading device for application Rf_Device from file '3s200.nph' in environment C:\Xilinx.
+   "test_board" is an NCD, version 3.1, device xc3s200, package tq144, speed -5
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.37 2005-11-04".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 8      12%
+   Number of DCMs                      2 out of 4      50%
+   Number of External IOBs            71 out of 97     73%
+      Number of LOCed IOBs            71 out of 71    100%
+
+   Number of Slices                  340 out of 1920   17%
+      Number of SLICEMs                1 out of 960     1%
+
+
+
+Overall effort level (-ol):   Standard 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard 
+
+Starting initial Timing Analysis.  REAL time: 4 secs 
+Finished initial Timing Analysis.  REAL time: 4 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98a6b2) REAL time: 4 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 4 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 7 secs 
+
+Phase 4.8
+...........
+..
+...........
+..
+..
+..
+Phase 4.8 (Checksum:9de6ef) REAL time: 9 secs 
+
+Phase 5.5
+Phase 5.5 (Checksum:2faf07b) REAL time: 9 secs 
+
+Phase 6.18
+Phase 6.18 (Checksum:39386fa) REAL time: 12 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 12 secs 
+
+Writing design to file test_board.ncd
+
+
+Total REAL time to Placer completion: 12 secs 
+Total CPU time to Placer completion: 12 secs 
+
+Starting Router
+
+Phase 1: 2247 unrouted;       REAL time: 13 secs 
+
+Phase 2: 2054 unrouted;       REAL time: 13 secs 
+
+Phase 3: 665 unrouted;       REAL time: 13 secs 
+
+Phase 4: 665 unrouted; (17668)      REAL time: 14 secs 
+
+Phase 5: 665 unrouted; (17668)      REAL time: 14 secs 
+
+Phase 6: 665 unrouted; (17668)      REAL time: 14 secs 
+
+Phase 7: 0 unrouted; (18611)      REAL time: 15 secs 
+
+Phase 8: 0 unrouted; (18611)      REAL time: 15 secs 
+
+Phase 9: 0 unrouted; (320)      REAL time: 19 secs 
+
+WARNING:Route:447 - CLK Net:clk_IBUFG may have excessive skew because 
+   49 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 19 secs 
+Total CPU time to Router completion: 18 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|            u0/clk_i |      BUFGMUX3| No   |  162 |  0.036     |  0.916      |
++---------------------+--------------+------+------+------------+-------------+
+|           clk_IBUFG |         Local|      |   52 |  4.720     |  5.849      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+
+   The Delay Summary Report
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.060
+   The MAXIMUM PIN DELAY IS:                               5.849
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   3.767
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 6.00  d >= 6.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+        1309         598         240          36          25           0
+
+Timing Score: 320
+
+INFO:Par:62 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your
+   design.
+   
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+      Route Static Timing Report").  Go to the failing constraint(s) and select
+      the "Timing Improvement Wizard" link for suggestions to correct each problem.
+
+   Increase the PAR Effort Level setting to "high"
+
+   Rerun Map with "-timing" (ISE process "Perform Timing -Driven
+   Packing and Placement"
+
+   Run Multi-Pass Place and Route in PAR using at least 5 "PAR Iterations"
+   (ISE process "Multi Pass Place & Route").
+
+   Use the Xilinx "xplorer" script to try special combinations of
+   options known to produce very good results.
+   See http://www.xilinx.com/xplorer for details.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic  | Absolute   |Number of  
+                                            |            |            | Levels | Slack      |errors     
+------------------------------------------------------------------------------------------------------
+* TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH  | 0.000ns    | -0.086ns   | 6      | -0.086ns   | 3         
+  50% HOLD ERROR                            |            |            |        |            |           
+------------------------------------------------------------------------------------------------------
+  TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH  | 20.000ns   | 9.324ns    | 12     | 10.676ns   | 0         
+  50%                                       |            |            |        |            |           
+------------------------------------------------------------------------------------------------------
+  TS_u0_u1_int_clk1x = PERIOD TIMEGRP "u0_u | 20.000ns   | 11.446ns   | 6      | 8.554ns    | 0         
+  1_int_clk1x" TS_clk HIGH 50%              |            |            |        |            |           
+------------------------------------------------------------------------------------------------------
+
+
+1 constraint not met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 20 secs 
+Total CPU time to PAR completion: 19 secs 
+
+Peak Memory Usage:  118 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - 4 errors found.
+
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 1
+
+Writing design to file test_board.ncd
+
+
+
+PAR done!

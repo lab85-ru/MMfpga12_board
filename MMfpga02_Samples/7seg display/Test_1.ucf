@@ -1,0 +1,29 @@
+# EVBfpga MMfpga02 PROPOX www.propox.com
+
+#clock 50MHz
+NET "clk_50MHz" LOC = "P38";
+NET "RESET"     LOC = "P2";
+
+#Seven-segment LED display - active low
+NET "LED7_AN_O<5>"  LOC	= "P88";	# most left
+NET "LED7_AN_O<4>"  LOC	= "P87";
+NET "LED7_AN_O<3>"  LOC	= "P86";
+NET "LED7_AN_O<2>"  LOC	= "P85";
+NET "LED7_AN_O<1>"  LOC	= "P81";
+NET "LED7_AN_O<0>"  LOC	= "P80";	# most right
+#     
+#		-a-
+#	 f|   |b	
+#		-g-
+#	 e|   |c
+#		-d-  .dp 
+#
+NET "LED7_SEG_O<7>" LOC	= "P79";	  # a
+NET "LED7_SEG_O<6>" LOC	= "P75";   # b
+NET "LED7_SEG_O<5>" LOC	= "P74";   # c
+NET "LED7_SEG_O<4>" LOC	= "P72";   # d
+NET "LED7_SEG_O<3>" LOC	= "P71";   # e
+NET "LED7_SEG_O<2>" LOC	= "P68";   # f
+NET "LED7_SEG_O<1>" LOC	= "P67";   # g
+NET "LED7_SEG_O<0>" LOC	= "P65";   # dp
+

@@ -1,0 +1,33 @@
+Release 8.1i ngdbuild I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Test_3.ucf -p
+xc3s200-tq144-5 Test_3.ngc Test_3.ngd 
+
+Reading NGO file
+'C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_3/Test_3.ngc'
+...
+
+Applying constraints in "Test_3.ucf" to the design...
+INFO:NgdBuild:738 - A case sensitive search for the INST, PAD, or NET element
+   referred to by a constraint entry in 'Test_3.ucf' that accompanies this
+   design has failed, while a case insensitive search is in progress. The result
+   of the case insensitive search will be used, but messages will accompany each
+   and every use of a case insensitive result. Constraints are case sensitive
+   with respect to user-specified identifiers, which includes names of logic
+   elements in a design.
+INFO:NgdBuild:740 - Line 5 in 'Test_3.ucf': Found case insensitive match for NET
+   name 'RESET'. NET is 'reset'.
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 64752 kilobytes
+
+Writing NGD file "Test_3.ngd" ...
+
+Writing NGDBUILD log file "Test_3.bld"...

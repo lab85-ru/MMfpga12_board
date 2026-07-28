@@ -1,0 +1,26 @@
+# EVBfpga MMfpga02 PROPOX www.propox.com
+
+#clock 50MHz
+NET "clk_50MHz" LOC = "P38";
+NET "RESET"     LOC = "P2";
+
+#Switches - active low
+NET "SW<3>" LOC	= "P4";
+NET "SW<2>" LOC	= "P5";
+NET "SW<1>" LOC	= "P8";
+NET "SW<0>" LOC	= "P9";
+
+#LEDs - active low
+NET "LED<7>" LOC = "P11";
+NET "LED<6>" LOC = "P12";
+NET "LED<5>" LOC = "P13";
+NET "LED<4>" LOC = "P14";
+NET "LED<3>" LOC = "P16";
+NET "LED<2>" LOC = "P17";
+NET "LED<1>" LOC = "P21";
+NET "LED<0>" LOC = "P23";
+
+#USER1 USER2
+NET "USER1" LOC = "P44";
+NET "USER2" LOC = "P47";
+

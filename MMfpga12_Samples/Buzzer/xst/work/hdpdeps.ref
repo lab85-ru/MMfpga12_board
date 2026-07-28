@@ -1,0 +1,9 @@
+V3 3
+FL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_2/Test_2.vhd 2007/07/11.08:27:58 I.24
+EN work/Test_2 1184135281 \
+      FL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_2/Test_2.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/Test_2/Behavioral 1184135282 \
+      FL C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/Test_2/Test_2.vhd \
+      EN work/Test_2 1184135281

@@ -1,0 +1,18 @@
+# EVBfpga MMfpga12 PROPOX www.propox.com
+# ver. 1.0
+
+#clock 50MHz
+NET "clk_50MHz" LOC = "P55";
+NET "RESET"     LOC = "P10";
+
+#PS2
+NET "KBDATA"  LOC = "P1";
+NET "KBCLOCK" LOC = "P2";
+
+#LCD
+NET "LCD_RS"	 LOC = "P107";
+NET "LCD_E"		 LOC = "P108";
+NET "LCD_D<0>"	 LOC = "P104";
+NET "LCD_D<1>"  LOC = "P105";
+NET "LCD_D<2>"  LOC = "P102";
+NET "LCD_D<3>"  LOC = "P103";

@@ -1,0 +1,41 @@
+ERROR:Cpld:832 - 'LED7_SEG_O<6>' is assigned to an invalid location ('P100') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<6>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<0>' is assigned to an invalid location ('P103') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<0>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<1>' is assigned to an invalid location ('P102') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<1>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<2>' is assigned to an invalid location ('P105') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<2>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<3>' is assigned to an invalid location ('P104') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<3>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<4>' is assigned to an invalid location ('P108') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<4>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<5>' is assigned to an invalid location ('P107') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<5>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<1>' is assigned to an invalid location ('P119') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<1>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<4>' is assigned to an invalid location ('P98') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<4>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<5>' is assigned to an invalid location ('P112') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<5>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<0>' is assigned to an invalid location ('P118') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<0>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<3>' is assigned to an invalid location ('P116') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<3>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<2>' is assigned to an invalid location ('P113') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<2>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.

@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map I.24 on Wed Jul 18 10:57:08 2007
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "RS232_1_RXD" LOCATE = SITE "P123" LEVEL 1;
+COMP "KBCLOCK" LOCATE = SITE "P2" LEVEL 1;
+COMP "KBDATA" LOCATE = SITE "P1" LEVEL 1;
+COMP "RS232_1_TXD" LOCATE = SITE "P122" LEVEL 1;
+COMP "clk_50MHz" LOCATE = SITE "P55" LEVEL 1;
+COMP "reset" LOCATE = SITE "P10" LEVEL 1;
+NET "clk_50MHz_BUFGP/IBUFG" BEL "clk_50MHz_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+NET "KBCLOCK_BUFGP/IBUFG" BEL "KBCLOCK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;

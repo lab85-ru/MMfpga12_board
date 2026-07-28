@@ -1,0 +1,14 @@
+# EVBfpga MMfpga02 PROPOX www.propox.com
+
+#clock 50MHz
+NET "clk_50MHz" LOC = "P38";
+NET "RESET"     LOC = "P2";
+
+#LCD
+NET "LCD_RS"	 LOC = "P88";
+NET "LCD_E"		 LOC = "P87";
+NET "LCD_D<0>"	 LOC = "P86";
+NET "LCD_D<1>"  LOC = "P85";
+NET "LCD_D<2>"  LOC = "P81";
+NET "LCD_D<3>"  LOC = "P80";
+

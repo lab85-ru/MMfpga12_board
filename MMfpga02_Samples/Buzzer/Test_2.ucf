@@ -1,0 +1,8 @@
+# EVBfpga MMfpga02 PROPOX www.propox.com
+
+#clock 50MHz
+NET "clk_50MHz" LOC = "P38";
+NET "RESET"     LOC = "P2";
+
+#Buzzer
+NET "BUZZER" LOC = " P62";			# active low

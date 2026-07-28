@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map I.24 on Thu Jul 12 08:32:16 2007
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LCD_RS" LOCATE = SITE "P107" LEVEL 1;
+COMP "LCD_E" LOCATE = SITE "P108" LEVEL 1;
+COMP "clk_50MHz" LOCATE = SITE "P55" LEVEL 1;
+COMP "LCD_D<0>" LOCATE = SITE "P104" LEVEL 1;
+COMP "LCD_D<1>" LOCATE = SITE "P105" LEVEL 1;
+COMP "LCD_D<2>" LOCATE = SITE "P102" LEVEL 1;
+COMP "LCD_D<3>" LOCATE = SITE "P103" LEVEL 1;
+COMP "reset" LOCATE = SITE "P10" LEVEL 1;
+NET "clk_50MHz_BUFGP/IBUFG" BEL "clk_50MHz_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;

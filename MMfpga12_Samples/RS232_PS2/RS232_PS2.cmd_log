@@ -1,0 +1,238 @@
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+xst -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -ifn RS232_PS2.xst -ofn RS232_PS2.syr
+ngdbuild -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -dd _ngo -nt timestamp -uc RS232_PS2.ucf -p xc3s200-tq144-5 RS232_PS2.ngc RS232_PS2.ngd
+map -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -p xc3s200-tq144-5 -cm area -pr b -k 4 -c 100 -o RS232_PS2_map.ncd RS232_PS2.ngd RS232_PS2.pcf
+par -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -w -intstyle ise -ol std -t 1 RS232_PS2_map.ncd RS232_PS2.ncd RS232_PS2.pcf
+trce -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -e 3 -l 3 -s 5 -xml RS232_PS2 RS232_PS2.ncd -o RS232_PS2.twr RS232_PS2.pcf
+bitgen -ise "C:/Andrzej_Okulicz_Praktykant_2007/EVBfpga_MMfpga12_testy/RS232_PS2/RS232_PS2" -intstyle ise -f RS232_PS2.ut RS232_PS2.ncd

@@ -1,0 +1,105 @@
+# SDRAM Tester - MMfpga12 ver. 1.0
+
+net      clk       loc=P55;  # main clock 50MHz
+
+NET "clk" TNM_NET  = "clk"; 
+TIMESPEC "TS_clk"  = PERIOD "clk" 20 ns HIGH 50 %;  
+
+net      reset     loc=P10;  # dip-switch 8
+net      ce_n      loc=P18;  # Flash RAM chip-enable
+
+# SDRAM memory tester pin assignments
+
+net      sclk      loc=P56;  # clock to SDRAM
+net      cke       loc=P57;  # SDRAM clock enable
+net      cs_n      loc=P73;  # SDRAM chip-select
+
+net      ras_n     loc=P85;  # Row Address Strobe
+net      cas_n     loc=P82;  # Column Address Strobe
+net      we_n      loc=P84;  # Write enable
+
+#Bank select 
+net      ba<0>     loc=P87;  
+net      ba<1>     loc=P86;  
+
+#Address
+net      sAddr<0>  loc=P77;  
+net      sAddr<1>  loc=P78;  
+net      sAddr<2>  loc=P76;  
+net      sAddr<3>  loc=P79;  
+net      sAddr<4>  loc=P80;  
+net      sAddr<5>  loc=P83;  
+net      sAddr<6>  loc=P70;  
+net      sAddr<7>  loc=P69;  
+net      sAddr<8>  loc=P68;  
+net      sAddr<9>  loc=P63;  
+net      sAddr<10> loc=P74;  
+net      sAddr<11> loc=P60;  
+net      sAddr<12> loc=P59;
+#Data  
+net      sData<0>  loc=P26; 
+net      sData<1>  loc=P27; 
+net      sData<2>  loc=P30; 
+net      sData<3>  loc=P31; 
+net      sData<4>  loc=P35; 
+net      sData<5>  loc=P36; 
+net      sData<6>  loc=P32; 
+net      sData<7>  loc=P33; 
+net      sData<8>  loc=P52; 
+net      sData<9>  loc=P51; 
+net      sData<10> loc=P50; 
+net      sData<11> loc=P47; 
+net      sData<12> loc=P46; 
+net      sData<13> loc=P44; 
+net      sData<14> loc=P41; 
+net      sData<15> loc=P40;
+ 
+net      dqmh      loc=P53;  
+net      dqml      loc=P90; 
+
+#led 7-seg
+#     
+#		-a-
+#	 f|   |b	
+#		-g-
+#	 e|   |c
+#		-d-  .dp 
+
+net      s<0>      loc=P119;  #g
+net      s<1>      loc=P113;  #f
+net      s<2>      loc=P116;  #e 
+net      s<3>      loc=P98;   #d
+net      s<4>      loc=P112;  #c 
+net      s<5>      loc=P100;	#b  
+net      s<6>      loc=P99;	#a 
+
+net      dp        loc=P118;  #dp
+ 
+net 		en<5>  	 loc=P107;
+net 		en<4>  	 loc=P108;
+net 		en<3>  	 loc=P104;
+net 		en<2>  	 loc=P105;
+net 		en<1>  	 loc=P102;
+net 		en<0>  	 loc=P103; 
+
+#Buzzer
+net      BUZZER    loc=P125;  
+ 
+#Switches - active low
+net 	   SW<3>     loc=P11;
+net      SW<2>     loc=P12;
+net      SW<1>     loc=P13;
+net      SW<0>     loc=P14;
+
+#LEDs - active low
+net      LED<7>    loc=P15;
+net      LED<6>    loc=P141;
+net      LED<5>    loc=P140;
+net      LED<4>    loc=P137;
+net      LED<3>    loc=P135;
+net      LED<2>    loc=P130;
+net      LED<1>    loc=P131;
+net      LED<0>    loc=P129;
+#USER1 USER2
+NET      USER1     loc=P124;
+NET      USER2     loc=P127; 

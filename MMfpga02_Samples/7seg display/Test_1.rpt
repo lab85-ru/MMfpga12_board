@@ -1,0 +1,958 @@
+ 
+cpldfit:  version I.24                              Xilinx Inc.
+                                  No Fit Report
+Design Name: Test_1                              Date:  7-11-2007,  8:20AM
+Device Used: XA2C256-7-VQ100
+Fitting Status: Design Rule Checking Failed
+
+**************************  Errors and Warnings  ***************************
+
+ERROR:Cpld:832 - 'LED7_SEG_O<6>' is assigned to an invalid location ('P100') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<6>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<0>' is assigned to an invalid location ('P103') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<0>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<1>' is assigned to an invalid location ('P102') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<1>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<2>' is assigned to an invalid location ('P105') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<2>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<3>' is assigned to an invalid location ('P104') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<3>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<4>' is assigned to an invalid location ('P108') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<4>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_AN_O<5>' is assigned to an invalid location ('P107') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_AN_O<5>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<1>' is assigned to an invalid location ('P119') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<1>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<4>' is assigned to an invalid location ('P98') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<4>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<5>' is assigned to an invalid location ('P112') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<5>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<0>' is assigned to an invalid location ('P118') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<0>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<3>' is assigned to an invalid location ('P116') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<3>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'LED7_SEG_O<2>' is assigned to an invalid location ('P113') for
+   this device.  This will prevent the design from fitting on the current
+   device. 'LED7_SEG_O<2>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+*************************  Mapped Resource Summary  **************************
+
+No logic has been mapped.
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+1  /256 (  1%) 0   /896  (  0%) 4   /640  (  1%) 1  /256 (  1%) 3  /80  (  4%)
+
+** Function Block Resources **
+
+Function Mcells   FB Inps  Pterms   IO       CTC      CTR      CTS      CTE     
+Block    Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot
+FB1       1/16      4/40     0/56     1/ 5    0/1      0/1      0/1      0/1
+FB2       0/16      0/40     0/56     0/ 6    0/1      0/1      0/1      0/1
+FB3       0/16      0/40     0/56     0/ 4    0/1      0/1      0/1      0/1
+FB4       0/16      0/40     0/56     0/ 6    0/1      0/1      0/1      0/1
+FB5       0/16      0/40     0/56     0/ 2    0/1      0/1      0/1      0/1
+FB6       0/16      0/40     0/56     0/ 5    0/1      0/1      0/1      0/1
+FB7       0/16      0/40     0/56     0/ 6    0/1      0/1      0/1      0/1
+FB8       0/16      0/40     0/56     0/ 6    0/1      0/1      0/1      0/1
+FB9       0/16      0/40     0/56     0/ 5    0/1      0/1      0/1      0/1
+FB10      0/16      0/40     0/56     0/ 7    0/1      0/1      0/1      0/1
+FB11      0/16      0/40     0/56     0/ 4    0/1      0/1      0/1      0/1
+FB12      0/16      0/40     0/56     0/ 4    0/1      0/1      0/1      0/1
+FB13      0/16      0/40     0/56     0/ 4    0/1      0/1      0/1      0/1
+FB14      0/16      0/40     0/56     0/ 5    0/1      0/1      0/1      0/1
+FB15      0/16      0/40     0/56     0/ 6    0/1      0/1      0/1      0/1
+FB16      0/16      0/40     0/56     0/ 5    0/1      0/1      0/1      0/1
+         -----    -------  -------   -----    ---      ---      ---      ---
+Total     1/256     4/640    0/896    1/80    0/16     0/16     0/16     0/16
+
+CTC - Control Term Clock
+CTR - Control Term Reset
+CTS - Control Term Set
+CTE - Control Term Output Enable
+
+* - Resource is exhausted
+
+** Global Control Resources **
+
+GCK         GSR         GTS         
+Used/Tot    Used/Tot    Used/Tot    
+0/3         0/1         0/4
+
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used    Total 
+------------------------------------|------------------------------------
+Input         :    2           2    |  I/O              :     2     70
+Output        :   14           1    |  GCK/IO           :     0      3
+Bidirectional :    0           0    |  GTS/IO           :     0      4
+GCK           :    0           0    |  GSR/IO           :     1      1
+GTS           :    0           0    |  CDR/IO           :     0      1
+GSR           :    0           0    |  DGE/IO           :     0      1
+                 ----        ----
+        Total     16           3
+
+End of Mapped Resource Summary
+*************************  Summary of Mapped Logic  ************************
+
+** 1 Outputs **
+
+Signal              Total Total Loc     Pin   Pin       Pin     I/O      
+Name                Pts   Inps          No.   Type      Use     STD      
+LED7_SEG_O<7>       4     4     FB1_3   99    GSR/I/O   O       LVCMOS18 
+
+** 2 Inputs **
+
+Signal              Loc     Pin   Pin       Pin     I/O      
+Name                        No.   Type      Use     STD      
+reset               FB4_3   10    I/O       I       LVCMOS18 
+clk_50MHz           FB13_6  55    I/O       I       LVCMOS18 
+
+Legend:
+Pin No.   - ~     - User Assigned
+I/O Style - OD    - OpenDrain
+          - PU    - Pullup
+          - KPR   - Keeper
+          - S     - SchmittTrigger
+          - DG    - DataGate
+Reg Use   - LATCH - Transparent latch
+          - DFF   - D-flip-flop
+          - DEFF  - D-flip-flop with clock enable
+          - TFF   - T-flip-flop
+          - TDFF  - Dual-edge-triggered T-flip-flop
+          - DDFF  - Dual-edge-triggered flip-flop
+          - DDEFF - Dual-edge-triggered flip-flop with clock enable
+          /S (after any above flop/latch type) indicates initial state is Set
+*************************  Summary of UnMapped Logic  ************************
+
+** 13 Outputs **
+
+Signal              Total Total I/O      User
+Name                Pts   Inps  STD      Assignment
+LED7_AN_O<0>        3     4     LVCMOS18 P103
+LED7_AN_O<1>        3     4     LVCMOS18 P102
+LED7_AN_O<2>        3     4     LVCMOS18 P105
+LED7_AN_O<3>        3     4     LVCMOS18 P104
+LED7_AN_O<4>        3     4     LVCMOS18 P108
+LED7_AN_O<5>        3     4     LVCMOS18 P107
+LED7_SEG_O<0>       2     2     LVCMOS18 P118
+LED7_SEG_O<1>       4     4     LVCMOS18 P119
+LED7_SEG_O<4>       5     5     LVCMOS18 P98
+LED7_SEG_O<5>       5     5     LVCMOS18 P112
+LED7_SEG_O<6>       3     3     LVCMOS18 P100
+LED7_SEG_O<3>       3     3     LVCMOS18 P116
+LED7_SEG_O<2>       3     3     LVCMOS18 P113
+
+** 155 Buried Nodes **
+
+Signal              Total Total User
+Name                Pts   Inps  Assignment
+Madd__n0014__n0000  1     2     
+Madd__n0014__n0001  1     2     
+Madd__n0014__n0002  1     2     
+Madd__n0014__n0003  1     2     
+Madd__n0014__n0004  1     2     
+Madd__n0014__n0005  1     2     
+Madd__n0014__n0006  1     2     
+Madd__n0014__n0007  1     2     
+Madd__n0014__n0008  1     2     
+Madd__n0014__n0009  1     2     
+Madd__n0014__n0010  1     2     
+Madd__n0014__n0011  1     2     
+Madd__n0014__n0012  1     2     
+Madd__n0014__n0013  1     2     
+Madd__n0015__n0000  1     2     
+Madd__n0015__n0001  1     2     
+Madd__n0015__n0002  1     2     
+Madd__n0015__n0003  1     2     
+Madd__n0015__n0004  1     2     
+Madd__n0015__n0005  1     2     
+Madd__n0015__n0006  1     2     
+Madd__n0015__n0007  1     2     
+Madd__n0015__n0008  1     2     
+Madd__n0015__n0009  1     2     
+Madd__n0015__n0010  1     2     
+Madd__n0015__n0011  1     2     
+Madd__n0015__n0012  1     2     
+Madd__n0015__n0013  1     2     
+Madd__n0015__n0014  1     2     
+Madd__n0015__n0015  1     2     
+Madd__n0015__n0016  1     2     
+Madd__n0015__n0017  1     2     
+Madd__n0015__n0018  1     2     
+Madd__n0015__n0019  1     2     
+Madd__n0015__n0020  1     2     
+Madd__n0015__n0021  1     2     
+Madd__n0015__n0022  1     2     
+Madd__n0015__n0023  1     2     
+_n0008              1     3     
+_n00081             1     4     
+
+Signal              Total Total User
+Name                Pts   Inps  Assignment
+_n000812            1     2     
+_n000813            1     8     
+_n000814            1     2     
+_n00082             1     2     
+_n0010<1>4          2     2     
+_n0010<1>5          1     2     
+_n0010<4>7          2     2     
+_n0010<4>1          1     2     
+_n0010<4>6          1     2     
+_n0010<5>1          1     2     
+_n0010<5>5          1     2     
+_n0010<7>3          1     2     
+_n0011<0>1          2     2     
+_n0011<0>3          2     2     
+_n0011<1>3          3     3     
+_n0011<2>4          3     3     
+_n0011<3>3          3     3     
+_n0011<4>3          2     2     
+_n0011<4>1          2     2     
+_n0011<5>1          3     3     
+_n0012              1     3     
+_n00121             1     8     
+_n001216            1     4     
+_n001217            1     8     
+_n001218            1     2     
+_n001219            1     2     
+_n00122             1     4     
+_n001220            1     2     
+_n0014<1>           2     2     
+_n0014<2>           2     2     
+_n0014<3>           2     2     
+_n0014<4>           2     2     
+_n0014<5>           2     2     
+_n0014<6>           2     2     
+_n0014<7>           2     2     
+_n0014<8>           2     2     
+_n0014<9>           2     2     
+_n0014<10>          2     2     
+_n0014<11>          2     2     
+_n0014<12>          2     2     
+
+Signal              Total Total User
+Name                Pts   Inps  Assignment
+_n0014<13>          2     2     
+_n0014<14>          2     2     
+_n0014<15>          2     2     
+_n0015<1>           2     2     
+_n0015<2>           2     2     
+_n0015<3>           2     2     
+_n0015<4>           2     2     
+_n0015<5>           2     2     
+_n0015<6>           2     2     
+_n0015<7>           2     2     
+_n0015<8>           2     2     
+_n0015<9>           2     2     
+_n0015<10>          2     2     
+_n0015<11>          2     2     
+_n0015<12>          2     2     
+_n0015<13>          2     2     
+_n0015<14>          2     2     
+_n0015<15>          2     2     
+_n0015<16>          2     2     
+_n0015<17>          2     2     
+_n0015<18>          2     2     
+_n0015<19>          2     2     
+_n0015<20>          2     2     
+_n0015<21>          2     2     
+_n0015<22>          2     2     
+_n0015<23>          2     2     
+_n0015<24>          2     2     
+_n0015<25>          2     2     
+clk_1Hz             4     4     
+clk_led7            4     4     
+counter<0>          3     3     
+counter<1>          4     4     
+counter<2>          4     4     
+counter<3>          4     4     
+counter<4>          4     4     
+counter<5>          4     4     
+counter<6>          4     4     
+counter<7>          3     4     
+counter<8>          4     4     
+counter<9>          4     4     
+
+Signal              Total Total User
+Name                Pts   Inps  Assignment
+counter<10>         4     4     
+counter<11>         4     4     
+counter<12>         3     4     
+counter<13>         3     4     
+counter<14>         3     4     
+counter<15>         3     4     
+counter<16>         4     4     
+counter<17>         3     4     
+counter<18>         4     4     
+counter<19>         3     4     
+counter<20>         3     4     
+counter<21>         3     4     
+counter<22>         3     4     
+counter<23>         3     4     
+counter<24>         4     4     
+counter<25>         3     4     
+counter_7seg<0>     3     3     
+counter_7seg<1>     4     4     
+counter_7seg<2>     4     4     
+counter_7seg<3>     4     4     
+counter_7seg<4>     3     4     
+counter_7seg<5>     4     4     
+counter_7seg<6>     3     4     
+counter_7seg<7>     4     4     
+counter_7seg<8>     3     4     
+counter_7seg<9>     3     4     
+counter_7seg<10>    4     4     
+counter_7seg<11>    4     4     
+counter_7seg<12>    4     4     
+counter_7seg<13>    4     4     
+counter_7seg<14>    3     4     
+counter_7seg<15>    3     4     
+state_FFd1          3     4     
+state_FFd2          3     4     
+state_FFd3          3     4     
+
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+FDCPE_LED7_SEG_O7: FDCPE port map (LED7_SEG_O(7),LED7_SEG_O_D(7),clk_led7,'0',NOT reset,'1');
+LED7_SEG_O_D(7) <= ((NOT clk_1Hz)
+	OR (_n0010(7)3));
+
+********** UnMapped Logic **********
+
+** Outputs **
+
+FDCPE_LED7_AN_O0: FDCPE port map (LED7_AN_O(0),LED7_AN_O_D(0),clk_led7,NOT reset,'0','1');
+LED7_AN_O_D(0) <= (clk_1Hz AND _n0011(0)3);
+
+FDCPE_LED7_AN_O1: FDCPE port map (LED7_AN_O(1),LED7_AN_O_D(1),clk_led7,NOT reset,'0','1');
+LED7_AN_O_D(1) <= (clk_1Hz AND _n0011(1)3);
+
+FDCPE_LED7_AN_O2: FDCPE port map (LED7_AN_O(2),LED7_AN_O_D(2),clk_led7,NOT reset,'0','1');
+LED7_AN_O_D(2) <= (clk_1Hz AND _n0011(2)4);
+
+FDCPE_LED7_AN_O3: FDCPE port map (LED7_AN_O(3),LED7_AN_O_D(3),clk_led7,NOT reset,'0','1');
+LED7_AN_O_D(3) <= (clk_1Hz AND _n0011(3)3);
+
+FDCPE_LED7_AN_O4: FDCPE port map (LED7_AN_O(4),LED7_AN_O_D(4),clk_led7,NOT reset,'0','1');
+LED7_AN_O_D(4) <= (clk_1Hz AND _n0011(4)3);
+
+FDCPE_LED7_AN_O5: FDCPE port map (LED7_AN_O(5),LED7_AN_O_D(5),clk_led7,NOT reset,'0','1');
+LED7_AN_O_D(5) <= (clk_1Hz AND _n0011(5)1);
+
+FDCPE_LED7_SEG_O0: FDCPE port map (LED7_SEG_O(0),'1',clk_led7,'0',NOT reset,'1');
+
+FDCPE_LED7_SEG_O1: FDCPE port map (LED7_SEG_O(1),LED7_SEG_O_D(1),clk_led7,'0',NOT reset,'1');
+LED7_SEG_O_D(1) <= ((NOT clk_1Hz)
+	OR (_n0010(1)5));
+
+FDCPE_LED7_SEG_O4: FDCPE port map (LED7_SEG_O(4),LED7_SEG_O_D(4),clk_led7,'0',NOT reset,'1');
+LED7_SEG_O_D(4) <= ((_n0010(4)1)
+	OR (_n0010(4)7)
+	OR (_n0010(4)6));
+
+FDCPE_LED7_SEG_O5: FDCPE port map (LED7_SEG_O(5),LED7_SEG_O_D(5),clk_led7,'0',NOT reset,'1');
+LED7_SEG_O_D(5) <= ((NOT clk_1Hz)
+	OR (_n0010(5)1)
+	OR (_n0010(5)5));
+
+FDCPE_LED7_SEG_O6: FDCPE port map (LED7_SEG_O(6),NOT clk_1Hz,clk_led7,'0',NOT reset,'1');
+
+FDCPE_LED7_SEG_O3: FDCPE port map (LED7_SEG_O(3),NOT clk_1Hz,clk_led7,'0',NOT reset,'1');
+
+FDCPE_LED7_SEG_O2: FDCPE port map (LED7_SEG_O(2),NOT clk_1Hz,clk_led7,'0',NOT reset,'1');
+
+** Buried Nodes **
+
+
+Madd__n0014__n0000 <= (counter_7seg(0) AND counter_7seg(1));
+
+
+Madd__n0014__n0001 <= (counter_7seg(2) AND Madd__n0014__n0000);
+
+
+Madd__n0014__n0002 <= (counter_7seg(3) AND Madd__n0014__n0001);
+
+
+Madd__n0014__n0003 <= (counter_7seg(4) AND Madd__n0014__n0002);
+
+
+Madd__n0014__n0004 <= (counter_7seg(5) AND Madd__n0014__n0003);
+
+
+Madd__n0014__n0005 <= (counter_7seg(6) AND Madd__n0014__n0004);
+
+
+Madd__n0014__n0006 <= (counter_7seg(7) AND Madd__n0014__n0005);
+
+
+Madd__n0014__n0007 <= (counter_7seg(8) AND Madd__n0014__n0006);
+
+
+Madd__n0014__n0008 <= (counter_7seg(9) AND Madd__n0014__n0007);
+
+
+Madd__n0014__n0009 <= (counter_7seg(10) AND Madd__n0014__n0008);
+
+
+Madd__n0014__n0010 <= (counter_7seg(11) AND Madd__n0014__n0009);
+
+
+Madd__n0014__n0011 <= (counter_7seg(12) AND Madd__n0014__n0010);
+
+
+Madd__n0014__n0012 <= (counter_7seg(13) AND Madd__n0014__n0011);
+
+
+Madd__n0014__n0013 <= (counter_7seg(14) AND Madd__n0014__n0012);
+
+
+Madd__n0015__n0000 <= (counter(0) AND counter(1));
+
+
+Madd__n0015__n0001 <= (counter(2) AND Madd__n0015__n0000);
+
+
+Madd__n0015__n0002 <= (counter(3) AND Madd__n0015__n0001);
+
+
+Madd__n0015__n0003 <= (counter(4) AND Madd__n0015__n0002);
+
+
+Madd__n0015__n0004 <= (counter(5) AND Madd__n0015__n0003);
+
+
+Madd__n0015__n0005 <= (counter(6) AND Madd__n0015__n0004);
+
+
+Madd__n0015__n0006 <= (counter(7) AND Madd__n0015__n0005);
+
+
+Madd__n0015__n0007 <= (counter(8) AND Madd__n0015__n0006);
+
+
+Madd__n0015__n0008 <= (counter(9) AND Madd__n0015__n0007);
+
+
+Madd__n0015__n0009 <= (counter(10) AND Madd__n0015__n0008);
+
+
+Madd__n0015__n0010 <= (counter(11) AND Madd__n0015__n0009);
+
+
+Madd__n0015__n0011 <= (counter(12) AND Madd__n0015__n0010);
+
+
+Madd__n0015__n0012 <= (counter(13) AND Madd__n0015__n0011);
+
+
+Madd__n0015__n0013 <= (counter(14) AND Madd__n0015__n0012);
+
+
+Madd__n0015__n0014 <= (counter(15) AND Madd__n0015__n0013);
+
+
+Madd__n0015__n0015 <= (counter(16) AND Madd__n0015__n0014);
+
+
+Madd__n0015__n0016 <= (counter(17) AND Madd__n0015__n0015);
+
+
+Madd__n0015__n0017 <= (counter(18) AND Madd__n0015__n0016);
+
+
+Madd__n0015__n0018 <= (counter(19) AND Madd__n0015__n0017);
+
+
+Madd__n0015__n0019 <= (counter(20) AND Madd__n0015__n0018);
+
+
+Madd__n0015__n0020 <= (counter(21) AND Madd__n0015__n0019);
+
+
+Madd__n0015__n0021 <= (counter(22) AND Madd__n0015__n0020);
+
+
+Madd__n0015__n0022 <= (counter(23) AND Madd__n0015__n0021);
+
+
+Madd__n0015__n0023 <= (counter(24) AND Madd__n0015__n0022);
+
+
+_n0008 <= (_n00081 AND _n000814 AND _n000813);
+
+
+_n00081 <= (counter_7seg(0) AND _n0014(4) AND _n0014(6) AND 
+	_n0014(8));
+
+
+_n000812 <= (NOT _n0014(1) AND _n0014(15));
+
+
+_n000813 <= (NOT _n0014(10) AND NOT _n0014(11) AND NOT _n0014(12) AND 
+	NOT _n0014(13) AND NOT _n0014(2) AND NOT _n0014(3) AND NOT _n0014(5) AND NOT _n0014(7));
+
+
+_n000814 <= (_n00082 AND _n000812);
+
+
+_n00082 <= (_n0014(14) AND _n0014(9));
+
+
+_n0010(1)5 <= (state_FFd2 AND _n0010(1)4);
+
+
+_n0010(1)4 <= ((NOT state_FFd1)
+	OR (NOT state_FFd3));
+
+
+_n0010(4)7 <= ((NOT clk_1Hz)
+	OR (NOT state_FFd2));
+
+
+_n0010(4)6 <= (NOT state_FFd1 AND NOT state_FFd3);
+
+
+_n0010(4)1 <= (state_FFd1 AND state_FFd3);
+
+
+_n0010(5)5 <= (NOT state_FFd1 AND NOT state_FFd3);
+
+
+_n0010(5)1 <= (state_FFd1 AND state_FFd3);
+
+
+_n0010(7)3 <= (state_FFd1 AND NOT state_FFd2);
+
+
+_n0011(0)3 <= ((NOT state_FFd1)
+	OR (_n0011(0)1));
+
+
+_n0011(0)1 <= ((state_FFd2)
+	OR (state_FFd3));
+
+
+_n0011(1)3 <= ((NOT state_FFd1)
+	OR (NOT state_FFd2)
+	OR (state_FFd3));
+
+
+_n0011(2)4 <= ((NOT state_FFd1)
+	OR (NOT state_FFd2)
+	OR (NOT state_FFd3));
+
+
+_n0011(3)3 <= ((state_FFd1)
+	OR (NOT state_FFd2)
+	OR (NOT state_FFd3));
+
+
+_n0011(4)1 <= ((state_FFd1)
+	OR (state_FFd2));
+
+
+_n0011(4)3 <= ((NOT state_FFd3)
+	OR (_n0011(4)1));
+
+
+_n0011(5)1 <= ((state_FFd1)
+	OR (state_FFd2)
+	OR (state_FFd3));
+
+
+_n0012 <= (_n00121 AND _n001219 AND _n001220);
+
+
+_n00121 <= (counter(0) AND _n0015(7) AND _n0015(12) AND 
+	_n0015(13) AND _n0015(14) AND _n0015(15) AND _n0015(19) AND 
+	_n0015(17));
+
+
+_n001216 <= (NOT _n0015(1) AND NOT _n0015(2) AND NOT _n0015(3) AND _n0015(23));
+
+
+_n001217 <= (NOT _n0015(10) AND NOT _n0015(11) AND NOT _n0015(16) AND 
+	NOT _n0015(4) AND NOT _n0015(5) AND NOT _n0015(6) AND NOT _n0015(8) AND NOT _n0015(9));
+
+
+_n001218 <= (NOT _n0015(18) AND NOT _n0015(24));
+
+
+_n001219 <= (_n00122 AND _n001216);
+
+
+_n00122 <= (_n0015(20) AND _n0015(21) AND _n0015(22) AND 
+	_n0015(25));
+
+
+_n001220 <= (_n001217 AND _n001218);
+
+
+_n0014(1) <= counter_7seg(0)
+	XOR counter_7seg(1);
+
+
+_n0014(2) <= Madd__n0014__n0000
+	XOR counter_7seg(2);
+
+
+_n0014(3) <= Madd__n0014__n0001
+	XOR counter_7seg(3);
+
+
+_n0014(4) <= Madd__n0014__n0002
+	XOR counter_7seg(4);
+
+
+_n0014(5) <= Madd__n0014__n0003
+	XOR counter_7seg(5);
+
+
+_n0014(6) <= Madd__n0014__n0004
+	XOR counter_7seg(6);
+
+
+_n0014(7) <= Madd__n0014__n0005
+	XOR counter_7seg(7);
+
+
+_n0014(8) <= Madd__n0014__n0006
+	XOR counter_7seg(8);
+
+
+_n0014(9) <= Madd__n0014__n0007
+	XOR counter_7seg(9);
+
+
+_n0014(10) <= Madd__n0014__n0008
+	XOR counter_7seg(10);
+
+
+_n0014(11) <= Madd__n0014__n0009
+	XOR counter_7seg(11);
+
+
+_n0014(12) <= Madd__n0014__n0010
+	XOR counter_7seg(12);
+
+
+_n0014(13) <= Madd__n0014__n0011
+	XOR counter_7seg(13);
+
+
+_n0014(14) <= Madd__n0014__n0012
+	XOR counter_7seg(14);
+
+
+_n0014(15) <= Madd__n0014__n0013
+	XOR counter_7seg(15);
+
+
+_n0015(1) <= counter(0)
+	XOR counter(1);
+
+
+_n0015(2) <= Madd__n0015__n0000
+	XOR counter(2);
+
+
+_n0015(3) <= Madd__n0015__n0001
+	XOR counter(3);
+
+
+_n0015(4) <= Madd__n0015__n0002
+	XOR counter(4);
+
+
+_n0015(5) <= Madd__n0015__n0003
+	XOR counter(5);
+
+
+_n0015(6) <= Madd__n0015__n0004
+	XOR counter(6);
+
+
+_n0015(7) <= Madd__n0015__n0005
+	XOR counter(7);
+
+
+_n0015(8) <= Madd__n0015__n0006
+	XOR counter(8);
+
+
+_n0015(9) <= Madd__n0015__n0007
+	XOR counter(9);
+
+
+_n0015(10) <= Madd__n0015__n0008
+	XOR counter(10);
+
+
+_n0015(11) <= Madd__n0015__n0009
+	XOR counter(11);
+
+
+_n0015(12) <= Madd__n0015__n0010
+	XOR counter(12);
+
+
+_n0015(13) <= Madd__n0015__n0011
+	XOR counter(13);
+
+
+_n0015(14) <= Madd__n0015__n0012
+	XOR counter(14);
+
+
+_n0015(15) <= Madd__n0015__n0013
+	XOR counter(15);
+
+
+_n0015(16) <= Madd__n0015__n0014
+	XOR counter(16);
+
+
+_n0015(17) <= Madd__n0015__n0015
+	XOR counter(17);
+
+
+_n0015(18) <= Madd__n0015__n0016
+	XOR counter(18);
+
+
+_n0015(19) <= Madd__n0015__n0017
+	XOR counter(19);
+
+
+_n0015(20) <= Madd__n0015__n0018
+	XOR counter(20);
+
+
+_n0015(21) <= Madd__n0015__n0019
+	XOR counter(21);
+
+
+_n0015(22) <= Madd__n0015__n0020
+	XOR counter(22);
+
+
+_n0015(23) <= Madd__n0015__n0021
+	XOR counter(23);
+
+
+_n0015(24) <= Madd__n0015__n0022
+	XOR counter(24);
+
+
+_n0015(25) <= Madd__n0015__n0023
+	XOR counter(25);
+
+FDCPE_clk_1Hz: FDCPE port map (clk_1Hz,NOT clk_1Hz,clk_50MHz,NOT reset,'0',_n0012);
+
+FDCPE_clk_led7: FDCPE port map (clk_led7,NOT clk_led7,clk_50MHz,NOT reset,'0',_n0008);
+
+FDCPE_counter0: FDCPE port map (counter(0),NOT counter(0),clk_50MHz,NOT reset,'0','1');
+
+FDCPE_counter1: FDCPE port map (counter(1),counter_D(1),clk_50MHz,NOT reset,'0','1');
+counter_D(1) <= counter(0)
+	XOR counter(1);
+
+FDCPE_counter2: FDCPE port map (counter(2),counter_D(2),clk_50MHz,NOT reset,'0','1');
+counter_D(2) <= Madd__n0015__n0000
+	XOR counter(2);
+
+FDCPE_counter3: FDCPE port map (counter(3),counter_D(3),clk_50MHz,NOT reset,'0','1');
+counter_D(3) <= Madd__n0015__n0001
+	XOR counter(3);
+
+FDCPE_counter4: FDCPE port map (counter(4),counter_D(4),clk_50MHz,NOT reset,'0','1');
+counter_D(4) <= Madd__n0015__n0002
+	XOR counter(4);
+
+FDCPE_counter5: FDCPE port map (counter(5),counter_D(5),clk_50MHz,NOT reset,'0','1');
+counter_D(5) <= Madd__n0015__n0003
+	XOR counter(5);
+
+FDCPE_counter6: FDCPE port map (counter(6),counter_D(6),clk_50MHz,NOT reset,'0','1');
+counter_D(6) <= Madd__n0015__n0004
+	XOR counter(6);
+
+FDCPE_counter7: FDCPE port map (counter(7),counter_D(7),clk_50MHz,NOT reset,'0','1');
+counter_D(7) <= (NOT _n0012 AND _n0015(7));
+
+FDCPE_counter8: FDCPE port map (counter(8),counter_D(8),clk_50MHz,NOT reset,'0','1');
+counter_D(8) <= Madd__n0015__n0006
+	XOR counter(8);
+
+FDCPE_counter9: FDCPE port map (counter(9),counter_D(9),clk_50MHz,NOT reset,'0','1');
+counter_D(9) <= Madd__n0015__n0007
+	XOR counter(9);
+
+FDCPE_counter10: FDCPE port map (counter(10),counter_D(10),clk_50MHz,NOT reset,'0','1');
+counter_D(10) <= Madd__n0015__n0008
+	XOR counter(10);
+
+FDCPE_counter11: FDCPE port map (counter(11),counter_D(11),clk_50MHz,NOT reset,'0','1');
+counter_D(11) <= Madd__n0015__n0009
+	XOR counter(11);
+
+FDCPE_counter12: FDCPE port map (counter(12),counter_D(12),clk_50MHz,NOT reset,'0','1');
+counter_D(12) <= (NOT _n0012 AND _n0015(12));
+
+FDCPE_counter13: FDCPE port map (counter(13),counter_D(13),clk_50MHz,NOT reset,'0','1');
+counter_D(13) <= (NOT _n0012 AND _n0015(13));
+
+FDCPE_counter14: FDCPE port map (counter(14),counter_D(14),clk_50MHz,NOT reset,'0','1');
+counter_D(14) <= (NOT _n0012 AND _n0015(14));
+
+FDCPE_counter15: FDCPE port map (counter(15),counter_D(15),clk_50MHz,NOT reset,'0','1');
+counter_D(15) <= (NOT _n0012 AND _n0015(15));
+
+FDCPE_counter16: FDCPE port map (counter(16),counter_D(16),clk_50MHz,NOT reset,'0','1');
+counter_D(16) <= Madd__n0015__n0014
+	XOR counter(16);
+
+FDCPE_counter17: FDCPE port map (counter(17),counter_D(17),clk_50MHz,NOT reset,'0','1');
+counter_D(17) <= (NOT _n0012 AND _n0015(17));
+
+FDCPE_counter18: FDCPE port map (counter(18),counter_D(18),clk_50MHz,NOT reset,'0','1');
+counter_D(18) <= Madd__n0015__n0016
+	XOR counter(18);
+
+FDCPE_counter19: FDCPE port map (counter(19),counter_D(19),clk_50MHz,NOT reset,'0','1');
+counter_D(19) <= (NOT _n0012 AND _n0015(19));
+
+FDCPE_counter20: FDCPE port map (counter(20),counter_D(20),clk_50MHz,NOT reset,'0','1');
+counter_D(20) <= (NOT _n0012 AND _n0015(20));
+
+FDCPE_counter21: FDCPE port map (counter(21),counter_D(21),clk_50MHz,NOT reset,'0','1');
+counter_D(21) <= (NOT _n0012 AND _n0015(21));
+
+FDCPE_counter22: FDCPE port map (counter(22),counter_D(22),clk_50MHz,NOT reset,'0','1');
+counter_D(22) <= (NOT _n0012 AND _n0015(22));
+
+FDCPE_counter23: FDCPE port map (counter(23),counter_D(23),clk_50MHz,NOT reset,'0','1');
+counter_D(23) <= (NOT _n0012 AND _n0015(23));
+
+FDCPE_counter24: FDCPE port map (counter(24),counter_D(24),clk_50MHz,NOT reset,'0','1');
+counter_D(24) <= Madd__n0015__n0022
+	XOR counter(24);
+
+FDCPE_counter25: FDCPE port map (counter(25),counter_D(25),clk_50MHz,NOT reset,'0','1');
+counter_D(25) <= (NOT _n0012 AND _n0015(25));
+
+FDCPE_counter_7seg0: FDCPE port map (counter_7seg(0),NOT counter_7seg(0),clk_50MHz,NOT reset,'0','1');
+
+FDCPE_counter_7seg1: FDCPE port map (counter_7seg(1),counter_7seg_D(1),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(1) <= counter_7seg(0)
+	XOR counter_7seg(1);
+
+FDCPE_counter_7seg2: FDCPE port map (counter_7seg(2),counter_7seg_D(2),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(2) <= Madd__n0014__n0000
+	XOR counter_7seg(2);
+
+FDCPE_counter_7seg3: FDCPE port map (counter_7seg(3),counter_7seg_D(3),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(3) <= Madd__n0014__n0001
+	XOR counter_7seg(3);
+
+FDCPE_counter_7seg4: FDCPE port map (counter_7seg(4),counter_7seg_D(4),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(4) <= (NOT _n0008 AND _n0014(4));
+
+FDCPE_counter_7seg5: FDCPE port map (counter_7seg(5),counter_7seg_D(5),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(5) <= Madd__n0014__n0003
+	XOR counter_7seg(5);
+
+FDCPE_counter_7seg6: FDCPE port map (counter_7seg(6),counter_7seg_D(6),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(6) <= (NOT _n0008 AND _n0014(6));
+
+FDCPE_counter_7seg7: FDCPE port map (counter_7seg(7),counter_7seg_D(7),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(7) <= Madd__n0014__n0005
+	XOR counter_7seg(7);
+
+FDCPE_counter_7seg8: FDCPE port map (counter_7seg(8),counter_7seg_D(8),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(8) <= (NOT _n0008 AND _n0014(8));
+
+FDCPE_counter_7seg9: FDCPE port map (counter_7seg(9),counter_7seg_D(9),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(9) <= (NOT _n0008 AND _n0014(9));
+
+FDCPE_counter_7seg10: FDCPE port map (counter_7seg(10),counter_7seg_D(10),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(10) <= Madd__n0014__n0008
+	XOR counter_7seg(10);
+
+FDCPE_counter_7seg11: FDCPE port map (counter_7seg(11),counter_7seg_D(11),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(11) <= Madd__n0014__n0009
+	XOR counter_7seg(11);
+
+FDCPE_counter_7seg12: FDCPE port map (counter_7seg(12),counter_7seg_D(12),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(12) <= Madd__n0014__n0010
+	XOR counter_7seg(12);
+
+FDCPE_counter_7seg13: FDCPE port map (counter_7seg(13),counter_7seg_D(13),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(13) <= Madd__n0014__n0011
+	XOR counter_7seg(13);
+
+FDCPE_counter_7seg14: FDCPE port map (counter_7seg(14),counter_7seg_D(14),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(14) <= (NOT _n0008 AND _n0014(14));
+
+FDCPE_counter_7seg15: FDCPE port map (counter_7seg(15),counter_7seg_D(15),clk_50MHz,NOT reset,'0','1');
+counter_7seg_D(15) <= (NOT _n0008 AND _n0014(15));
+
+FDCPE_state_FFd1: FDCPE port map (state_FFd1,state_FFd1_D,clk_led7,NOT reset,'0','1');
+state_FFd1_D <= (clk_1Hz AND state_FFd2);
+
+FDCPE_state_FFd2: FDCPE port map (state_FFd2,state_FFd2_D,clk_led7,NOT reset,'0','1');
+state_FFd2_D <= (clk_1Hz AND state_FFd3);
+
+FDCPE_state_FFd3: FDCPE port map (state_FFd3,state_FFd3_D,clk_led7,NOT reset,'0','1');
+state_FFd3_D <= (clk_1Hz AND NOT state_FFd1);
+
+
+Register Legend:
+ FDCPE (Q,D,C,CLR,PRE,CE); 
+ FDDCPE (Q,D,C,CLR,PRE,CE); 
+ FTCPE (Q,D,C,CLR,PRE,CE); 
+ FTDCPE (Q,D,C,CLR,PRE,CE); 
+ LDCP  (Q,D,G,CLR,PRE); 
+
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : xa2c*-*-*
+Optimization Method                         : DENSITY
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Set Unused I/O Pin Termination              : KEEPER
+Global Clock Optimization                   : ON
+Global Set/Reset Optimization               : ON
+Global Ouput Enable Optimization            : ON
+Enable Input Registers                      : ON
+Function Block Fan-in Limit                 : 38
+Use DATA_GATE Attribute                     : ON
+Set Tristate Outputs to Termination Mode    : KEEPER
+Default Voltage Standard for All Outputs    : LVCMOS18
+Input Limit                                 : 32
+Pterm Limit                                 : 28
